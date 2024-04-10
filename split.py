@@ -1,13 +1,14 @@
-import os
-import sys
-
-# Aggiungi il percorso al PATH
-sys.path.append("/usr/local/anaconda3/lib/python3.9/site-packages")
-
 import pandas as pd
 
-df = pd.read_csv("data/rxrx1_v1.0/metadata.csv")
+df = pd.read_csv("metadata.csv")
 
 # Validation: 4 experiments, 2 sites per experiment
 
-print(df[df['datasets'] == 'test'])
+print(df[df['dataset'] == 'test'].experiment.unique())
+
+for exp in ['HEPG2-08', 'HUVEC-20', 'RPE-09', 'U2OS-05']:
+    df.loc[df['experiment'] == exp, 'dataset'] = 'val'
+    
+df.to_csv('metadata_val.csv', index=False)
+
+print(df[df['dataset'] == 'val'].experiment.unique())
