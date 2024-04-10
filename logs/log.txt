@@ -1,0 +1,346 @@
+Dataset: rxrx1
+Algorithm: ERM
+Root dir: data
+Split scheme: official
+Dataset kwargs: {}
+Download: False
+Frac: 0.05
+Version: None
+Unlabeled split: None
+Unlabeled version: None
+Use unlabeled y: False
+Loader kwargs: {'num_workers': 4, 'pin_memory': True}
+Unlabeled loader kwargs: {'num_workers': 8, 'pin_memory': True}
+Train loader: standard
+Uniform over groups: False
+Distinct groups: None
+N groups per batch: 9
+Unlabeled n groups per batch: None
+Batch size: 72
+Unlabeled batch size: None
+Eval loader: standard
+Gradient accumulation steps: 1
+Model: resnet50
+Model kwargs: {'pretrained': True}
+Noisystudent add dropout: None
+Noisystudent dropout rate: None
+Pretrained model path: None
+Load featurizer only: False
+Teacher model path: None
+Transform: rxrx1
+Additional train transform: None
+Target resolution: (256, 256)
+Resize scale: None
+Max token length: None
+Randaugment n: 2
+Loss function: cross_entropy
+Loss kwargs: {}
+Groupby fields: ['experiment']
+Group dro step size: None
+Coral penalty weight: 0.1
+Dann penalty weight: None
+Dann classifier lr: None
+Dann featurizer lr: None
+Dann discriminator lr: None
+Afn penalty weight: None
+Safn delta r: None
+Hafn r: None
+Use hafn: False
+Irm lambda: 1.0
+Irm penalty anneal iters: None
+Self training lambda: None
+Self training threshold: None
+Pseudolabel t2: None
+Soft pseudolabels: False
+Algo log metric: accuracy
+Process pseudolabels function: None
+Val metric: acc_avg
+Val metric decreasing: False
+N epochs: 90
+Optimizer: Adam
+Lr: 0.001
+Weight decay: 1e-05
+Max grad norm: None
+Optimizer kwargs: {}
+Scheduler: cosine_schedule_with_warmup
+Scheduler kwargs: {'num_warmup_steps': 5415}
+Scheduler metric split: val
+Scheduler metric name: None
+Process outputs function: multiclass_logits_to_pred
+Evaluate all splits: True
+Eval splits: []
+Eval only: False
+Eval epoch: None
+Device: cuda
+Seed: 0
+Log dir: ./logs
+Log every: 50
+Save step: None
+Save best: True
+Save last: True
+Save pred: True
+No group logging: False
+Progress bar: False
+Resume: False
+Use wandb: False
+Wandb api key path: None
+Wandb kwargs: {}
+Use data parallel: False
+
+Train data...
+    experiment = HEPG2-08: n = 0
+    experiment = HEPG2-09: n = 0
+    experiment = HEPG2-10: n = 0
+    experiment = HEPG2-11: n = 0
+    experiment = HUVEC-17: n = 0
+    experiment = HUVEC-18: n = 0
+    experiment = HUVEC-19: n = 0
+    experiment = HUVEC-20: n = 0
+    experiment = HUVEC-21: n = 0
+    experiment = HUVEC-22: n = 0
+    experiment = HUVEC-23: n = 0
+    experiment = HUVEC-24: n = 0
+    experiment = RPE-08: n = 0
+    experiment = RPE-09: n = 0
+    experiment = RPE-10: n = 0
+    experiment = RPE-11: n = 0
+    experiment = U2OS-04: n = 0
+    experiment = U2OS-05: n = 0
+    experiment = HEPG2-01: n = 51
+    experiment = HEPG2-02: n = 61
+    experiment = HEPG2-03: n = 78
+    experiment = HEPG2-04: n = 56
+    experiment = HEPG2-05: n = 82
+    experiment = HEPG2-06: n = 61
+    experiment = HEPG2-07: n = 86
+    experiment = HUVEC-01: n = 51
+    experiment = HUVEC-02: n = 63
+    experiment = HUVEC-03: n = 62
+    experiment = HUVEC-04: n = 56
+    experiment = HUVEC-05: n = 51
+    experiment = HUVEC-06: n = 67
+    experiment = HUVEC-07: n = 64
+    experiment = HUVEC-08: n = 63
+    experiment = HUVEC-09: n = 59
+    experiment = HUVEC-10: n = 67
+    experiment = HUVEC-11: n = 69
+    experiment = HUVEC-12: n = 61
+    experiment = HUVEC-13: n = 55
+    experiment = HUVEC-14: n = 50
+    experiment = HUVEC-15: n = 60
+    experiment = HUVEC-16: n = 65
+    experiment = RPE-01: n = 64
+    experiment = RPE-02: n = 70
+    experiment = RPE-03: n = 63
+    experiment = RPE-04: n = 52
+    experiment = RPE-05: n = 65
+    experiment = RPE-06: n = 54
+    experiment = RPE-07: n = 52
+    experiment = U2OS-01: n = 61
+    experiment = U2OS-02: n = 53
+    experiment = U2OS-03: n = 59
+Validation (OOD) data...
+    experiment = HEPG2-08: n = 0
+    experiment = HEPG2-09: n = 0
+    experiment = HEPG2-10: n = 0
+    experiment = HEPG2-11: n = 0
+    experiment = HUVEC-17: n = 0
+    experiment = HUVEC-18: n = 0
+    experiment = HUVEC-19: n = 0
+    experiment = HUVEC-20: n = 0
+    experiment = HUVEC-21: n = 0
+    experiment = HUVEC-22: n = 0
+    experiment = HUVEC-23: n = 0
+    experiment = HUVEC-24: n = 0
+    experiment = RPE-08: n = 0
+    experiment = RPE-09: n = 0
+    experiment = RPE-10: n = 0
+    experiment = RPE-11: n = 0
+    experiment = U2OS-04: n = 0
+    experiment = U2OS-05: n = 0
+    experiment = HEPG2-01: n = 0
+    experiment = HEPG2-02: n = 0
+    experiment = HEPG2-03: n = 0
+    experiment = HEPG2-04: n = 0
+    experiment = HEPG2-05: n = 0
+    experiment = HEPG2-06: n = 0
+    experiment = HEPG2-07: n = 0
+    experiment = HUVEC-01: n = 0
+    experiment = HUVEC-02: n = 0
+    experiment = HUVEC-03: n = 0
+    experiment = HUVEC-04: n = 0
+    experiment = HUVEC-05: n = 0
+    experiment = HUVEC-06: n = 0
+    experiment = HUVEC-07: n = 0
+    experiment = HUVEC-08: n = 0
+    experiment = HUVEC-09: n = 0
+    experiment = HUVEC-10: n = 0
+    experiment = HUVEC-11: n = 0
+    experiment = HUVEC-12: n = 0
+    experiment = HUVEC-13: n = 0
+    experiment = HUVEC-14: n = 0
+    experiment = HUVEC-15: n = 0
+    experiment = HUVEC-16: n = 0
+    experiment = RPE-01: n = 0
+    experiment = RPE-02: n = 0
+    experiment = RPE-03: n = 0
+    experiment = RPE-04: n = 0
+    experiment = RPE-05: n = 0
+    experiment = RPE-06: n = 0
+    experiment = RPE-07: n = 0
+    experiment = U2OS-01: n = 0
+    experiment = U2OS-02: n = 0
+    experiment = U2OS-03: n = 0
+Test (OOD) data...
+    experiment = HEPG2-08: n = 112
+    experiment = HEPG2-09: n = 109
+    experiment = HEPG2-10: n = 123
+    experiment = HEPG2-11: n = 125
+    experiment = HUVEC-17: n = 138
+    experiment = HUVEC-18: n = 113
+    experiment = HUVEC-19: n = 116
+    experiment = HUVEC-20: n = 126
+    experiment = HUVEC-21: n = 116
+    experiment = HUVEC-22: n = 130
+    experiment = HUVEC-23: n = 120
+    experiment = HUVEC-24: n = 118
+    experiment = RPE-08: n = 120
+    experiment = RPE-09: n = 133
+    experiment = RPE-10: n = 140
+    experiment = RPE-11: n = 120
+    experiment = U2OS-04: n = 136
+    experiment = U2OS-05: n = 119
+    experiment = HEPG2-01: n = 0
+    experiment = HEPG2-02: n = 0
+    experiment = HEPG2-03: n = 0
+    experiment = HEPG2-04: n = 0
+    experiment = HEPG2-05: n = 0
+    experiment = HEPG2-06: n = 0
+    experiment = HEPG2-07: n = 0
+    experiment = HUVEC-01: n = 0
+    experiment = HUVEC-02: n = 0
+    experiment = HUVEC-03: n = 0
+    experiment = HUVEC-04: n = 0
+    experiment = HUVEC-05: n = 0
+    experiment = HUVEC-06: n = 0
+    experiment = HUVEC-07: n = 0
+    experiment = HUVEC-08: n = 0
+    experiment = HUVEC-09: n = 0
+    experiment = HUVEC-10: n = 0
+    experiment = HUVEC-11: n = 0
+    experiment = HUVEC-12: n = 0
+    experiment = HUVEC-13: n = 0
+    experiment = HUVEC-14: n = 0
+    experiment = HUVEC-15: n = 0
+    experiment = HUVEC-16: n = 0
+    experiment = RPE-01: n = 0
+    experiment = RPE-02: n = 0
+    experiment = RPE-03: n = 0
+    experiment = RPE-04: n = 0
+    experiment = RPE-05: n = 0
+    experiment = RPE-06: n = 0
+    experiment = RPE-07: n = 0
+    experiment = U2OS-01: n = 0
+    experiment = U2OS-02: n = 0
+    experiment = U2OS-03: n = 0
+Test (ID) data...
+    experiment = HEPG2-08: n = 0
+    experiment = HEPG2-09: n = 0
+    experiment = HEPG2-10: n = 0
+    experiment = HEPG2-11: n = 0
+    experiment = HUVEC-17: n = 0
+    experiment = HUVEC-18: n = 0
+    experiment = HUVEC-19: n = 0
+    experiment = HUVEC-20: n = 0
+    experiment = HUVEC-21: n = 0
+    experiment = HUVEC-22: n = 0
+    experiment = HUVEC-23: n = 0
+    experiment = HUVEC-24: n = 0
+    experiment = RPE-08: n = 0
+    experiment = RPE-09: n = 0
+    experiment = RPE-10: n = 0
+    experiment = RPE-11: n = 0
+    experiment = U2OS-04: n = 0
+    experiment = U2OS-05: n = 0
+    experiment = HEPG2-01: n = 68
+    experiment = HEPG2-02: n = 59
+    experiment = HEPG2-03: n = 65
+    experiment = HEPG2-04: n = 51
+    experiment = HEPG2-05: n = 66
+    experiment = HEPG2-06: n = 62
+    experiment = HEPG2-07: n = 65
+    experiment = HUVEC-01: n = 65
+    experiment = HUVEC-02: n = 61
+    experiment = HUVEC-03: n = 55
+    experiment = HUVEC-04: n = 60
+    experiment = HUVEC-05: n = 69
+    experiment = HUVEC-06: n = 65
+    experiment = HUVEC-07: n = 63
+    experiment = HUVEC-08: n = 59
+    experiment = HUVEC-09: n = 56
+    experiment = HUVEC-10: n = 51
+    experiment = HUVEC-11: n = 71
+    experiment = HUVEC-12: n = 60
+    experiment = HUVEC-13: n = 62
+    experiment = HUVEC-14: n = 48
+    experiment = HUVEC-15: n = 59
+    experiment = HUVEC-16: n = 68
+    experiment = RPE-01: n = 58
+    experiment = RPE-02: n = 59
+    experiment = RPE-03: n = 80
+    experiment = RPE-04: n = 70
+    experiment = RPE-05: n = 53
+    experiment = RPE-06: n = 62
+    experiment = RPE-07: n = 66
+    experiment = U2OS-01: n = 54
+    experiment = U2OS-02: n = 61
+    experiment = U2OS-03: n = 60
+
+Epoch [0]:
+
+Train:
+objective: 7.089
+loss_avg: 7.089
+acc_avg: 0.000
+  experiment = HEPG2-01  [n =     51]:	loss: 7.080	acc: 0.000	
+  experiment = HEPG2-02  [n =     61]:	loss: 7.086	acc: 0.000	
+  experiment = HEPG2-03  [n =     78]:	loss: 7.106	acc: 0.000	
+  experiment = HEPG2-04  [n =     56]:	loss: 7.106	acc: 0.000	
+  experiment = HEPG2-05  [n =     82]:	loss: 7.062	acc: 0.000	
+  experiment = HEPG2-06  [n =     61]:	loss: 7.086	acc: 0.000	
+  experiment = HEPG2-07  [n =     86]:	loss: 7.032	acc: 0.000	
+  experiment = HUVEC-01  [n =     51]:	loss: 7.161	acc: 0.020	
+  experiment = HUVEC-02  [n =     63]:	loss: 7.053	acc: 0.000	
+  experiment = HUVEC-03  [n =     62]:	loss: 7.115	acc: 0.000	
+  experiment = HUVEC-04  [n =     56]:	loss: 7.078	acc: 0.000	
+  experiment = HUVEC-05  [n =     51]:	loss: 7.080	acc: 0.000	
+  experiment = HUVEC-06  [n =     67]:	loss: 7.156	acc: 0.000	
+  experiment = HUVEC-07  [n =     64]:	loss: 7.061	acc: 0.000	
+  experiment = HUVEC-08  [n =     63]:	loss: 7.107	acc: 0.000	
+  experiment = HUVEC-09  [n =     59]:	loss: 7.112	acc: 0.000	
+  experiment = HUVEC-10  [n =     67]:	loss: 7.067	acc: 0.000	
+  experiment = HUVEC-11  [n =     69]:	loss: 7.087	acc: 0.000	
+  experiment = HUVEC-12  [n =     61]:	loss: 7.144	acc: 0.000	
+  experiment = HUVEC-13  [n =     55]:	loss: 7.092	acc: 0.000	
+  experiment = HUVEC-14  [n =     50]:	loss: 7.118	acc: 0.000	
+  experiment = HUVEC-15  [n =     60]:	loss: 7.073	acc: 0.000	
+  experiment = HUVEC-16  [n =     65]:	loss: 7.036	acc: 0.000	
+  experiment = RPE-01  [n =     64]:	loss: 7.039	acc: 0.000	
+  experiment = RPE-02  [n =     70]:	loss: 7.103	acc: 0.000	
+  experiment = RPE-03  [n =     63]:	loss: 7.036	acc: 0.000	
+  experiment = RPE-04  [n =     52]:	loss: 7.120	acc: 0.000	
+  experiment = RPE-05  [n =     65]:	loss: 7.098	acc: 0.000	
+  experiment = RPE-06  [n =     54]:	loss: 7.080	acc: 0.000	
+  experiment = RPE-07  [n =     52]:	loss: 7.121	acc: 0.000	
+  experiment = U2OS-01  [n =     61]:	loss: 7.082	acc: 0.000	
+  experiment = U2OS-02  [n =     53]:	loss: 7.082	acc: 0.000	
+  experiment = U2OS-03  [n =     59]:	loss: 7.127	acc: 0.000	
+Epoch eval:
+Average acc: 0.000
+  cell_type = HEPG2  [n =    475]:	acc = 0.000
+  cell_type = HUVEC  [n =    963]:	acc = 0.001
+  cell_type = RPE  [n =    420]:	acc = 0.000
+  cell_type = U2OS  [n =    173]:	acc = 0.000
+Worst-group acc: 0.000
+
+Validation (OOD):
