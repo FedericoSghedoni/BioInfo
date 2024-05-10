@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=mix_rc
+#SBATCH --job-name=mix_rc2
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=2
 #SBATCH --mem=5G
