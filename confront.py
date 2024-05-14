@@ -3,17 +3,22 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Setta il param di sort
+p_sort = 'Additional train transform'
+# Setta numero valori da leggere dai log di ogni file
+n_val = 45
 # Definisci i parametri di interesse
-params_of_interest = ['Model', 'Optimizer', 'Transform', 'Additional train transform', 'Scheduler', 'Dropout', 'Batch size', 'Lr', 'Weight decay', 'Scheduler kwargs']
+params_of_interest = ['Log dir', 'Model', 'Optimizer', 'N epochs', 'Transform', 'Additional train transform', 'Scheduler', 'Dropout', 'Batch size', 'Lr', 'Weight decay', 'Scheduler kwargs']
+
 
 # Inizializza un dizionario per memorizzare i valori dei parametri
 param_values = {param: [] for param in params_of_interest}
 
 # Percorri tutte le cartelle "logs"
 logs_folders = []
-for log in ['logs', 'logg', 'logc', 'logp']:
+for log in ['log_', 'logc', 'logp_']: #'logs', 'logg', 'logc', 'logp'
     logs_folders = logs_folders + [folder for folder in os.listdir('.') if log in folder and os.path.isdir(os.path.join('.', folder))]
-    
+
 for folder in logs_folders:
     log_file = os.path.join(folder, 'log.txt')
     
@@ -29,8 +34,10 @@ for folder in logs_folders:
                 value = line.split(': ')[-1].strip().strip('}')
                 if param == 'Scheduler':
                     value = value.split('_')[0]
-                if value == 'google/vit-base-patch16-224':
+                elif value == 'google/vit-base-patch16-224':
                     value = 'vit'
+                elif param == 'Log dir':
+                    value = folder
                 param_values[param].append(value)
                 found = True
                 break
@@ -39,14 +46,17 @@ for folder in logs_folders:
 
 # Crea il DataFrame
 df = pd.DataFrame(param_values)
-
+# Sort by param
+df = df.sort_values(by=p_sort)
 df = df.transpose()
-
+# Seleziona la riga 0
+row_0 = df.iloc[0]
+# Converti i valori della riga in una lista
+row_0_values = row_0.tolist()
 # Rinomina le colonne con i nomi delle cartelle "logs"
-df.columns = logs_folders
+logs_folders = row_0_values
 
-# setta numero valori da leggere da ogni file
-n_val = 30
+
 # Inizializza un dizionario per memorizzare i valori degli iperparametri
 param_values = {}
 param_values.update({f'{i}_ac_id': [] for i in range(len(logs_folders))})
@@ -98,16 +108,18 @@ eval_df = eval_df.reindex(columns=desired_order)
 
 def render_mpl_table(data, col_width=0.1, row_height=0.625, font_size=14,
                      header_color='#40466e', row_colors=['#fdf1e0', 'w'], edge_color='w',
-                     bbox=[0, 0, 1, 1], rowLabels =False, header_columns=0,
+                     bbox=[0, 0, 1, 1], rowLabels=False, colLabels=False,header_columns=0,
                      ax=None, **kwargs):
     if ax is None:
         size = (np.array(data.shape[::-1]) + np.array([0, 1])) * np.array([col_width, row_height])
         fig, ax = plt.subplots(figsize=size)
         ax.axis('off')
     
-    if rowLabels:
+    if colLabels and rowLabels:
         mpl_table = ax.table(cellText=data.values, bbox=bbox, colLabels=data.columns, rowLabels=data.index, **kwargs)
-    else:
+    elif not colLabels and rowLabels:
+        mpl_table = ax.table(cellText=data.values, bbox=bbox, rowLabels=data.index, **kwargs)
+    elif colLabels and not rowLabels:
         mpl_table = ax.table(cellText=data.values, bbox=bbox, colLabels=data.columns, **kwargs)
 
     mpl_table.auto_set_font_size(False)
@@ -131,15 +143,16 @@ fig, axs = plt.subplots(2)
 # Eliminazione dello spazio tra le tabelle
 plt.subplots_adjust(hspace=0)
 
+f_width, f_height = 5+4*len(logs_folders), 15 + n_val//2
 # Ingrandimento dell'intera figura
-fig.set_size_inches(70, 25)
+fig.set_size_inches(f_width, f_height)
 
 for ax in axs:
     ax.axis('off')
 
 # Disegno delle tabelle
 render_mpl_table(df, header_columns=0, ax=axs[0], font_size=14, rowLabels=True, row_colors=['#faf7e5','#f3fae5'])
-render_mpl_table(eval_df, header_columns=0, ax=axs[1], font_size=9, rowLabels=True, row_colors=['#faf7e5','w','#faf7e5','#f3fae5','w','#f3fae5'])
+render_mpl_table(eval_df, header_columns=0, ax=axs[1], font_size=9, rowLabels=True, colLabels=True, row_colors=['#faf7e5','w','#faf7e5','#f3fae5','w','#f3fae5'])
 
 # Impostazione del nome degli indici sopra la colonna degli indici
 #axs[1].text(-0.5, 1.1, 'Labels', fontsize=12, fontweight='bold', ha='center', va='bottom', transform=ax.transAxes)
