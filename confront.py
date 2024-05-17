@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Setta il param di sort
-p_sort = 'Additional train transform'
+p_sort = ['Additional train transform',  'Model kwargs', 'N epochs']
 # Setta numero valori da leggere dai log di ogni file
 n_val = 45
 # Definisci i parametri di interesse
-params_of_interest = ['Log dir', 'Model', 'Optimizer', 'N epochs', 'Transform', 'Additional train transform', 'Scheduler', 'Dropout', 'Batch size', 'Lr', 'Weight decay', 'Scheduler kwargs']
+params_of_interest = ['Log dir', 'Model', 'Model kwargs', 'Split scheme', 'Optimizer', 'N epochs', 'Transform', 'Randaugment n', 'Additional train transform', 'Scheduler', 'Dropout', 'Batch size', 'Lr', 'Weight decay', 'Scheduler kwargs']
 
 
 # Inizializza un dizionario per memorizzare i valori dei parametri
@@ -16,7 +16,7 @@ param_values = {param: [] for param in params_of_interest}
 
 # Percorri tutte le cartelle "logs"
 logs_folders = []
-for log in ['log_', 'logc', 'logp_']: #'logs', 'logg', 'logc', 'logp'
+for log in ['log_', 'logc', 'logp_', 'logx']: #'logs', 'logg', 'logc', 'logp'
     logs_folders = logs_folders + [folder for folder in os.listdir('.') if log in folder and os.path.isdir(os.path.join('.', folder))]
 
 for folder in logs_folders:

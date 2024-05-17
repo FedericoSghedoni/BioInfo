@@ -40,3 +40,6 @@ exit
 
 per provare cutmix:
 python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_dir data --device 0 --model google/vit-base-patch16-224 --log_dir ./log --additional_train_transform cutmix
+
+per ottenere gli embeddings di resnet: (va aggiunto il codice in identity.py)
+python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_dir data --device 0 --log_dir ./logs_resnet50 --eval_only True --eval_splits val --evaluate_all_splits False --load_featurizer_only True --pretrained_model_path ./logs_resnet50/rxrx1_seed:0_epoch:best_model.pth

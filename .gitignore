@@ -4,3 +4,4 @@ tests
 log*
 metadata_val.csv
 metadata.csv
+resnet_embeddings.csv
