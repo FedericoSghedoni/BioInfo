@@ -4032,3 +4032,8 @@ Average acc: 0.191
   cell_type = U2OS  [n =   2440]:	acc = 0.053
 Worst-group acc: 0.053
 Validation acc_avg: 0.191
+
+
+Epoch [19]:
+
+Train:

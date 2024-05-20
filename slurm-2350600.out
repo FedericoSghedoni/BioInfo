@@ -4017,3 +4017,18 @@ Average acc: 0.860
 Worst-group acc: 0.828
 
 Validation (OOD):
+objective: 5.355
+loss_avg: 5.355
+acc_avg: 0.189
+  experiment = HEPG2-08  [n =   2462]:	loss: 5.533	acc: 0.148	
+  experiment = HUVEC-20  [n =   2464]:	loss: 3.186	acc: 0.391	
+  experiment = RPE-09  [n =   2462]:	loss: 5.487	acc: 0.158	
+  experiment = U2OS-05  [n =   2440]:	loss: 7.234	acc: 0.059	
+Epoch eval:
+Average acc: 0.189
+  cell_type = HEPG2  [n =   2462]:	acc = 0.148
+  cell_type = HUVEC  [n =   2464]:	acc = 0.391
+  cell_type = RPE  [n =   2462]:	acc = 0.158
+  cell_type = U2OS  [n =   2440]:	acc = 0.059
+Worst-group acc: 0.059
+Validation acc_avg: 0.189
