@@ -2152,3 +2152,1883 @@ Average acc: 0.949
 Worst-group acc: 0.933
 
 Validation (OOD):
+objective: 4.723
+loss_avg: 4.723
+acc_avg: 0.236
+  experiment = HEPG2-08  [n =   2462]:	loss: 5.099	acc: 0.188	
+  experiment = HUVEC-20  [n =   2464]:	loss: 2.597	acc: 0.463	
+  experiment = RPE-09  [n =   2462]:	loss: 4.681	acc: 0.213	
+  experiment = U2OS-05  [n =   2440]:	loss: 6.534	acc: 0.078	
+Epoch eval:
+Average acc: 0.236
+  cell_type = HEPG2  [n =   2462]:	acc = 0.188
+  cell_type = HUVEC  [n =   2464]:	acc = 0.463
+  cell_type = RPE  [n =   2462]:	acc = 0.213
+  cell_type = U2OS  [n =   2440]:	acc = 0.078
+Worst-group acc: 0.078
+Validation acc_avg: 0.236
+
+
+Epoch [18]:
+
+Train:
+objective: 0.295
+loss_avg: 0.295
+acc_avg: 0.939
+  experiment = HEPG2-01  [n =     27]:	loss: 0.456	acc: 0.889	
+  experiment = HEPG2-02  [n =     29]:	loss: 0.263	acc: 0.966	
+  experiment = HEPG2-03  [n =     33]:	loss: 0.315	acc: 0.939	
+  experiment = HEPG2-04  [n =     16]:	loss: 0.364	acc: 0.938	
+  experiment = HEPG2-05  [n =     29]:	loss: 0.453	acc: 0.862	
+  experiment = HEPG2-06  [n =     20]:	loss: 0.502	acc: 0.850	
+  experiment = HEPG2-07  [n =     25]:	loss: 0.442	acc: 0.920	
+  experiment = HUVEC-01  [n =     22]:	loss: 0.143	acc: 1.000	
+  experiment = HUVEC-02  [n =     21]:	loss: 0.089	acc: 1.000	
+  experiment = HUVEC-03  [n =     33]:	loss: 0.231	acc: 0.939	
+  experiment = HUVEC-04  [n =     21]:	loss: 0.051	acc: 1.000	
+  experiment = HUVEC-05  [n =     16]:	loss: 0.670	acc: 0.875	
+  experiment = HUVEC-06  [n =     12]:	loss: 0.054	acc: 1.000	
+  experiment = HUVEC-07  [n =     25]:	loss: 0.420	acc: 0.840	
+  experiment = HUVEC-08  [n =     20]:	loss: 0.055	acc: 1.000	
+  experiment = HUVEC-09  [n =     29]:	loss: 0.359	acc: 0.862	
+  experiment = HUVEC-10  [n =     28]:	loss: 0.125	acc: 1.000	
+  experiment = HUVEC-11  [n =     19]:	loss: 0.163	acc: 1.000	
+  experiment = HUVEC-12  [n =     36]:	loss: 0.164	acc: 0.972	
+  experiment = HUVEC-13  [n =     23]:	loss: 0.238	acc: 0.957	
+  experiment = HUVEC-14  [n =     36]:	loss: 0.140	acc: 0.972	
+  experiment = HUVEC-15  [n =     27]:	loss: 0.162	acc: 0.963	
+  experiment = HUVEC-16  [n =     20]:	loss: 0.200	acc: 0.950	
+  experiment = RPE-01  [n =     22]:	loss: 0.249	acc: 0.909	
+  experiment = RPE-02  [n =     26]:	loss: 0.478	acc: 0.923	
+  experiment = RPE-03  [n =     24]:	loss: 0.278	acc: 1.000	
+  experiment = RPE-04  [n =     27]:	loss: 0.360	acc: 0.963	
+  experiment = RPE-05  [n =     21]:	loss: 0.309	acc: 0.905	
+  experiment = RPE-06  [n =     20]:	loss: 0.250	acc: 1.000	
+  experiment = RPE-07  [n =     17]:	loss: 0.277	acc: 0.941	
+  experiment = U2OS-01  [n =     24]:	loss: 0.364	acc: 0.958	
+  experiment = U2OS-02  [n =     27]:	loss: 0.669	acc: 0.778	
+  experiment = U2OS-03  [n =     25]:	loss: 0.408	acc: 0.960	
+objective: 0.334
+loss_avg: 0.334
+acc_avg: 0.918
+  experiment = HEPG2-01  [n =     18]:	loss: 0.221	acc: 1.000	
+  experiment = HEPG2-02  [n =     22]:	loss: 0.477	acc: 0.864	
+  experiment = HEPG2-03  [n =     24]:	loss: 0.168	acc: 1.000	
+  experiment = HEPG2-04  [n =     19]:	loss: 0.402	acc: 0.895	
+  experiment = HEPG2-05  [n =     21]:	loss: 0.555	acc: 0.952	
+  experiment = HEPG2-06  [n =     24]:	loss: 0.472	acc: 0.833	
+  experiment = HEPG2-07  [n =     27]:	loss: 0.301	acc: 0.926	
+  experiment = HUVEC-01  [n =     23]:	loss: 0.439	acc: 0.870	
+  experiment = HUVEC-02  [n =     26]:	loss: 0.044	acc: 1.000	
+  experiment = HUVEC-03  [n =     23]:	loss: 0.149	acc: 1.000	
+  experiment = HUVEC-04  [n =     25]:	loss: 0.388	acc: 0.960	
+  experiment = HUVEC-05  [n =     26]:	loss: 0.543	acc: 0.885	
+  experiment = HUVEC-06  [n =     23]:	loss: 0.261	acc: 0.870	
+  experiment = HUVEC-07  [n =     25]:	loss: 0.064	acc: 1.000	
+  experiment = HUVEC-08  [n =     20]:	loss: 0.163	acc: 0.950	
+  experiment = HUVEC-09  [n =     23]:	loss: 0.219	acc: 0.957	
+  experiment = HUVEC-10  [n =     32]:	loss: 0.355	acc: 0.906	
+  experiment = HUVEC-11  [n =     26]:	loss: 0.390	acc: 0.846	
+  experiment = HUVEC-12  [n =     22]:	loss: 0.066	acc: 1.000	
+  experiment = HUVEC-13  [n =     21]:	loss: 0.135	acc: 0.952	
+  experiment = HUVEC-14  [n =     24]:	loss: 0.280	acc: 0.958	
+  experiment = HUVEC-15  [n =     31]:	loss: 0.073	acc: 1.000	
+  experiment = HUVEC-16  [n =     27]:	loss: 0.379	acc: 0.852	
+  experiment = RPE-01  [n =     29]:	loss: 0.309	acc: 0.966	
+  experiment = RPE-02  [n =     22]:	loss: 0.517	acc: 0.818	
+  experiment = RPE-03  [n =     26]:	loss: 0.364	acc: 0.846	
+  experiment = RPE-04  [n =     23]:	loss: 0.515	acc: 0.913	
+  experiment = RPE-05  [n =     23]:	loss: 0.400	acc: 0.870	
+  experiment = RPE-06  [n =     26]:	loss: 0.415	acc: 0.923	
+  experiment = RPE-07  [n =     20]:	loss: 0.720	acc: 0.850	
+  experiment = U2OS-01  [n =     32]:	loss: 0.389	acc: 0.906	
+  experiment = U2OS-02  [n =     22]:	loss: 0.585	acc: 0.818	
+  experiment = U2OS-03  [n =     25]:	loss: 0.380	acc: 0.880	
+objective: 0.306
+loss_avg: 0.306
+acc_avg: 0.941
+  experiment = HEPG2-01  [n =     31]:	loss: 0.378	acc: 0.935	
+  experiment = HEPG2-02  [n =     24]:	loss: 0.406	acc: 0.958	
+  experiment = HEPG2-03  [n =     23]:	loss: 0.486	acc: 0.913	
+  experiment = HEPG2-04  [n =     24]:	loss: 0.378	acc: 0.958	
+  experiment = HEPG2-05  [n =     30]:	loss: 0.543	acc: 0.900	
+  experiment = HEPG2-06  [n =     33]:	loss: 0.484	acc: 0.909	
+  experiment = HEPG2-07  [n =     21]:	loss: 0.244	acc: 0.952	
+  experiment = HUVEC-01  [n =     25]:	loss: 0.128	acc: 0.960	
+  experiment = HUVEC-02  [n =     27]:	loss: 0.161	acc: 0.926	
+  experiment = HUVEC-03  [n =     24]:	loss: 0.246	acc: 0.958	
+  experiment = HUVEC-04  [n =     18]:	loss: 0.101	acc: 1.000	
+  experiment = HUVEC-05  [n =     29]:	loss: 0.302	acc: 0.966	
+  experiment = HUVEC-06  [n =     30]:	loss: 0.152	acc: 0.967	
+  experiment = HUVEC-07  [n =     21]:	loss: 0.203	acc: 0.952	
+  experiment = HUVEC-08  [n =     20]:	loss: 0.228	acc: 0.950	
+  experiment = HUVEC-09  [n =     21]:	loss: 0.124	acc: 1.000	
+  experiment = HUVEC-10  [n =     19]:	loss: 0.190	acc: 0.947	
+  experiment = HUVEC-11  [n =     30]:	loss: 0.400	acc: 0.933	
+  experiment = HUVEC-12  [n =     21]:	loss: 0.347	acc: 0.857	
+  experiment = HUVEC-13  [n =     22]:	loss: 0.373	acc: 0.864	
+  experiment = HUVEC-14  [n =     22]:	loss: 0.171	acc: 1.000	
+  experiment = HUVEC-15  [n =     21]:	loss: 0.575	acc: 0.905	
+  experiment = HUVEC-16  [n =     26]:	loss: 0.441	acc: 0.885	
+  experiment = RPE-01  [n =     21]:	loss: 0.361	acc: 0.905	
+  experiment = RPE-02  [n =     21]:	loss: 0.097	acc: 1.000	
+  experiment = RPE-03  [n =     27]:	loss: 0.260	acc: 0.963	
+  experiment = RPE-04  [n =     28]:	loss: 0.208	acc: 1.000	
+  experiment = RPE-05  [n =     29]:	loss: 0.341	acc: 0.897	
+  experiment = RPE-06  [n =     16]:	loss: 0.226	acc: 1.000	
+  experiment = RPE-07  [n =     20]:	loss: 0.237	acc: 0.950	
+  experiment = U2OS-01  [n =     21]:	loss: 0.452	acc: 0.952	
+  experiment = U2OS-02  [n =     24]:	loss: 0.364	acc: 0.917	
+  experiment = U2OS-03  [n =     31]:	loss: 0.275	acc: 0.935	
+objective: 0.331
+loss_avg: 0.331
+acc_avg: 0.932
+  experiment = HEPG2-01  [n =     19]:	loss: 0.259	acc: 1.000	
+  experiment = HEPG2-02  [n =     23]:	loss: 0.321	acc: 0.913	
+  experiment = HEPG2-03  [n =     25]:	loss: 0.159	acc: 0.960	
+  experiment = HEPG2-04  [n =     18]:	loss: 0.573	acc: 0.889	
+  experiment = HEPG2-05  [n =     29]:	loss: 0.275	acc: 0.966	
+  experiment = HEPG2-06  [n =     32]:	loss: 0.141	acc: 1.000	
+  experiment = HEPG2-07  [n =     21]:	loss: 0.374	acc: 0.857	
+  experiment = HUVEC-01  [n =     34]:	loss: 0.339	acc: 0.941	
+  experiment = HUVEC-02  [n =     14]:	loss: 0.432	acc: 0.857	
+  experiment = HUVEC-03  [n =     28]:	loss: 0.152	acc: 1.000	
+  experiment = HUVEC-04  [n =     29]:	loss: 0.352	acc: 0.931	
+  experiment = HUVEC-05  [n =     17]:	loss: 0.434	acc: 0.882	
+  experiment = HUVEC-06  [n =     31]:	loss: 0.175	acc: 0.968	
+  experiment = HUVEC-07  [n =     26]:	loss: 0.205	acc: 0.962	
+  experiment = HUVEC-08  [n =     20]:	loss: 0.174	acc: 0.950	
+  experiment = HUVEC-09  [n =     30]:	loss: 0.352	acc: 0.900	
+  experiment = HUVEC-10  [n =     19]:	loss: 0.222	acc: 1.000	
+  experiment = HUVEC-11  [n =     23]:	loss: 0.088	acc: 1.000	
+  experiment = HUVEC-12  [n =     20]:	loss: 0.505	acc: 0.850	
+  experiment = HUVEC-13  [n =     23]:	loss: 0.075	acc: 1.000	
+  experiment = HUVEC-14  [n =     21]:	loss: 0.183	acc: 0.952	
+  experiment = HUVEC-15  [n =     28]:	loss: 0.409	acc: 0.929	
+  experiment = HUVEC-16  [n =     15]:	loss: 0.632	acc: 0.867	
+  experiment = RPE-01  [n =     24]:	loss: 0.268	acc: 0.958	
+  experiment = RPE-02  [n =     18]:	loss: 0.336	acc: 0.944	
+  experiment = RPE-03  [n =     33]:	loss: 0.160	acc: 1.000	
+  experiment = RPE-04  [n =     25]:	loss: 1.164	acc: 0.720	
+  experiment = RPE-05  [n =     29]:	loss: 0.569	acc: 0.828	
+  experiment = RPE-06  [n =     27]:	loss: 0.481	acc: 0.889	
+  experiment = RPE-07  [n =     27]:	loss: 0.259	acc: 0.963	
+  experiment = U2OS-01  [n =     29]:	loss: 0.269	acc: 0.931	
+  experiment = U2OS-02  [n =     18]:	loss: 0.480	acc: 1.000	
+  experiment = U2OS-03  [n =     25]:	loss: 0.431	acc: 0.880	
+objective: 0.319
+loss_avg: 0.319
+acc_avg: 0.926
+  experiment = HEPG2-01  [n =     23]:	loss: 0.164	acc: 1.000	
+  experiment = HEPG2-02  [n =     31]:	loss: 0.312	acc: 0.903	
+  experiment = HEPG2-03  [n =     26]:	loss: 0.212	acc: 1.000	
+  experiment = HEPG2-04  [n =     29]:	loss: 0.564	acc: 0.828	
+  experiment = HEPG2-05  [n =     19]:	loss: 0.226	acc: 0.947	
+  experiment = HEPG2-06  [n =     23]:	loss: 0.367	acc: 0.913	
+  experiment = HEPG2-07  [n =     29]:	loss: 0.418	acc: 0.931	
+  experiment = HUVEC-01  [n =     22]:	loss: 0.122	acc: 1.000	
+  experiment = HUVEC-02  [n =     26]:	loss: 0.533	acc: 0.846	
+  experiment = HUVEC-03  [n =     20]:	loss: 0.148	acc: 0.950	
+  experiment = HUVEC-04  [n =     20]:	loss: 0.134	acc: 1.000	
+  experiment = HUVEC-05  [n =     18]:	loss: 0.424	acc: 0.944	
+  experiment = HUVEC-06  [n =     24]:	loss: 0.375	acc: 0.958	
+  experiment = HUVEC-07  [n =     32]:	loss: 0.151	acc: 0.937	
+  experiment = HUVEC-08  [n =     35]:	loss: 0.268	acc: 0.971	
+  experiment = HUVEC-09  [n =     17]:	loss: 0.259	acc: 0.941	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.334	acc: 0.870	
+  experiment = HUVEC-11  [n =     22]:	loss: 0.188	acc: 1.000	
+  experiment = HUVEC-12  [n =     18]:	loss: 0.392	acc: 0.944	
+  experiment = HUVEC-13  [n =     22]:	loss: 0.240	acc: 0.909	
+  experiment = HUVEC-14  [n =     23]:	loss: 0.176	acc: 0.957	
+  experiment = HUVEC-15  [n =     34]:	loss: 0.247	acc: 0.912	
+  experiment = HUVEC-16  [n =     21]:	loss: 0.183	acc: 0.952	
+  experiment = RPE-01  [n =     17]:	loss: 0.286	acc: 0.941	
+  experiment = RPE-02  [n =     31]:	loss: 0.337	acc: 0.935	
+  experiment = RPE-03  [n =     29]:	loss: 0.364	acc: 0.897	
+  experiment = RPE-04  [n =     20]:	loss: 0.591	acc: 0.850	
+  experiment = RPE-05  [n =     21]:	loss: 0.412	acc: 0.905	
+  experiment = RPE-06  [n =     25]:	loss: 0.252	acc: 0.960	
+  experiment = RPE-07  [n =     22]:	loss: 0.351	acc: 0.909	
+  experiment = U2OS-01  [n =     22]:	loss: 0.301	acc: 0.909	
+  experiment = U2OS-02  [n =     28]:	loss: 0.542	acc: 0.857	
+  experiment = U2OS-03  [n =     28]:	loss: 0.539	acc: 0.857	
+objective: 0.313
+loss_avg: 0.313
+acc_avg: 0.931
+  experiment = HEPG2-01  [n =     24]:	loss: 0.239	acc: 0.958	
+  experiment = HEPG2-02  [n =     20]:	loss: 0.738	acc: 0.800	
+  experiment = HEPG2-03  [n =     20]:	loss: 0.292	acc: 0.950	
+  experiment = HEPG2-04  [n =     24]:	loss: 0.500	acc: 0.833	
+  experiment = HEPG2-05  [n =     24]:	loss: 0.491	acc: 0.875	
+  experiment = HEPG2-06  [n =     23]:	loss: 0.414	acc: 0.870	
+  experiment = HEPG2-07  [n =     21]:	loss: 0.696	acc: 0.857	
+  experiment = HUVEC-01  [n =     19]:	loss: 0.292	acc: 0.947	
+  experiment = HUVEC-02  [n =     31]:	loss: 0.184	acc: 0.935	
+  experiment = HUVEC-03  [n =     25]:	loss: 0.219	acc: 0.960	
+  experiment = HUVEC-04  [n =     25]:	loss: 0.216	acc: 0.960	
+  experiment = HUVEC-05  [n =     25]:	loss: 0.219	acc: 0.920	
+  experiment = HUVEC-06  [n =     24]:	loss: 0.216	acc: 0.917	
+  experiment = HUVEC-07  [n =     24]:	loss: 0.113	acc: 0.958	
+  experiment = HUVEC-08  [n =     30]:	loss: 0.106	acc: 1.000	
+  experiment = HUVEC-09  [n =     29]:	loss: 0.081	acc: 1.000	
+  experiment = HUVEC-10  [n =     24]:	loss: 0.255	acc: 0.958	
+  experiment = HUVEC-11  [n =     23]:	loss: 0.194	acc: 1.000	
+  experiment = HUVEC-12  [n =     23]:	loss: 0.318	acc: 0.957	
+  experiment = HUVEC-13  [n =     22]:	loss: 0.318	acc: 0.955	
+  experiment = HUVEC-14  [n =     31]:	loss: 0.230	acc: 0.968	
+  experiment = HUVEC-15  [n =     30]:	loss: 0.251	acc: 1.000	
+  experiment = HUVEC-16  [n =     25]:	loss: 0.582	acc: 0.840	
+  experiment = RPE-01  [n =     28]:	loss: 0.278	acc: 0.964	
+  experiment = RPE-02  [n =     20]:	loss: 0.067	acc: 1.000	
+  experiment = RPE-03  [n =     21]:	loss: 0.291	acc: 0.952	
+  experiment = RPE-04  [n =     18]:	loss: 0.226	acc: 1.000	
+  experiment = RPE-05  [n =     26]:	loss: 0.532	acc: 0.846	
+  experiment = RPE-06  [n =     23]:	loss: 0.162	acc: 1.000	
+  experiment = RPE-07  [n =     19]:	loss: 0.182	acc: 0.947	
+  experiment = U2OS-01  [n =     26]:	loss: 0.461	acc: 0.885	
+  experiment = U2OS-02  [n =     21]:	loss: 0.511	acc: 0.762	
+  experiment = U2OS-03  [n =     32]:	loss: 0.548	acc: 0.906	
+objective: 0.386
+loss_avg: 0.386
+acc_avg: 0.915
+  experiment = HEPG2-01  [n =     29]:	loss: 0.515	acc: 0.862	
+  experiment = HEPG2-02  [n =     23]:	loss: 0.232	acc: 0.957	
+  experiment = HEPG2-03  [n =     26]:	loss: 0.497	acc: 0.885	
+  experiment = HEPG2-04  [n =     29]:	loss: 0.505	acc: 0.897	
+  experiment = HEPG2-05  [n =     20]:	loss: 0.279	acc: 1.000	
+  experiment = HEPG2-06  [n =     35]:	loss: 0.559	acc: 0.886	
+  experiment = HEPG2-07  [n =     26]:	loss: 0.467	acc: 0.846	
+  experiment = HUVEC-01  [n =     23]:	loss: 0.331	acc: 0.913	
+  experiment = HUVEC-02  [n =     26]:	loss: 0.493	acc: 0.885	
+  experiment = HUVEC-03  [n =     26]:	loss: 0.119	acc: 0.962	
+  experiment = HUVEC-04  [n =     28]:	loss: 0.278	acc: 0.964	
+  experiment = HUVEC-05  [n =     29]:	loss: 0.706	acc: 0.828	
+  experiment = HUVEC-06  [n =     19]:	loss: 0.262	acc: 0.947	
+  experiment = HUVEC-07  [n =     23]:	loss: 0.305	acc: 0.957	
+  experiment = HUVEC-08  [n =     18]:	loss: 0.360	acc: 0.889	
+  experiment = HUVEC-09  [n =     20]:	loss: 0.379	acc: 0.900	
+  experiment = HUVEC-10  [n =     31]:	loss: 0.171	acc: 0.968	
+  experiment = HUVEC-11  [n =     23]:	loss: 0.295	acc: 0.957	
+  experiment = HUVEC-12  [n =     21]:	loss: 0.243	acc: 1.000	
+  experiment = HUVEC-13  [n =     12]:	loss: 0.235	acc: 0.917	
+  experiment = HUVEC-14  [n =     25]:	loss: 0.145	acc: 0.960	
+  experiment = HUVEC-15  [n =     26]:	loss: 0.295	acc: 0.885	
+  experiment = HUVEC-16  [n =     24]:	loss: 0.235	acc: 0.958	
+  experiment = RPE-01  [n =     23]:	loss: 0.617	acc: 0.913	
+  experiment = RPE-02  [n =     29]:	loss: 0.536	acc: 0.897	
+  experiment = RPE-03  [n =     23]:	loss: 0.094	acc: 1.000	
+  experiment = RPE-04  [n =     25]:	loss: 0.532	acc: 0.840	
+  experiment = RPE-05  [n =     20]:	loss: 0.486	acc: 0.850	
+  experiment = RPE-06  [n =     26]:	loss: 0.448	acc: 0.885	
+  experiment = RPE-07  [n =     19]:	loss: 1.014	acc: 0.789	
+  experiment = U2OS-01  [n =     30]:	loss: 0.286	acc: 0.933	
+  experiment = U2OS-02  [n =     25]:	loss: 0.270	acc: 1.000	
+  experiment = U2OS-03  [n =     18]:	loss: 0.412	acc: 0.889	
+objective: 0.410
+loss_avg: 0.410
+acc_avg: 0.910
+  experiment = HEPG2-01  [n =     27]:	loss: 0.435	acc: 0.889	
+  experiment = HEPG2-02  [n =     28]:	loss: 0.322	acc: 0.929	
+  experiment = HEPG2-03  [n =     25]:	loss: 0.432	acc: 0.880	
+  experiment = HEPG2-04  [n =     36]:	loss: 0.368	acc: 0.944	
+  experiment = HEPG2-05  [n =     31]:	loss: 0.311	acc: 1.000	
+  experiment = HEPG2-06  [n =     26]:	loss: 0.385	acc: 0.962	
+  experiment = HEPG2-07  [n =     23]:	loss: 0.367	acc: 0.913	
+  experiment = HUVEC-01  [n =     15]:	loss: 0.137	acc: 1.000	
+  experiment = HUVEC-02  [n =     28]:	loss: 0.112	acc: 0.964	
+  experiment = HUVEC-03  [n =     26]:	loss: 0.292	acc: 0.962	
+  experiment = HUVEC-04  [n =     27]:	loss: 0.285	acc: 0.889	
+  experiment = HUVEC-05  [n =     30]:	loss: 0.224	acc: 0.967	
+  experiment = HUVEC-06  [n =     25]:	loss: 0.435	acc: 0.920	
+  experiment = HUVEC-07  [n =     24]:	loss: 0.099	acc: 0.958	
+  experiment = HUVEC-08  [n =     25]:	loss: 0.367	acc: 0.880	
+  experiment = HUVEC-09  [n =     28]:	loss: 0.391	acc: 0.929	
+  experiment = HUVEC-10  [n =     13]:	loss: 0.288	acc: 0.923	
+  experiment = HUVEC-11  [n =     24]:	loss: 0.277	acc: 0.917	
+  experiment = HUVEC-12  [n =     29]:	loss: 0.264	acc: 0.897	
+  experiment = HUVEC-13  [n =     14]:	loss: 0.302	acc: 0.929	
+  experiment = HUVEC-14  [n =     14]:	loss: 0.102	acc: 0.929	
+  experiment = HUVEC-15  [n =     15]:	loss: 0.267	acc: 0.867	
+  experiment = HUVEC-16  [n =     28]:	loss: 0.474	acc: 0.893	
+  experiment = RPE-01  [n =     21]:	loss: 0.368	acc: 0.952	
+  experiment = RPE-02  [n =     32]:	loss: 0.688	acc: 0.812	
+  experiment = RPE-03  [n =     28]:	loss: 0.828	acc: 0.857	
+  experiment = RPE-04  [n =     14]:	loss: 0.972	acc: 0.714	
+  experiment = RPE-05  [n =     24]:	loss: 0.161	acc: 1.000	
+  experiment = RPE-06  [n =     20]:	loss: 0.696	acc: 0.800	
+  experiment = RPE-07  [n =     25]:	loss: 0.871	acc: 0.800	
+  experiment = U2OS-01  [n =     28]:	loss: 0.783	acc: 0.893	
+  experiment = U2OS-02  [n =     23]:	loss: 0.614	acc: 0.870	
+  experiment = U2OS-03  [n =     24]:	loss: 0.467	acc: 0.917	
+objective: 0.389
+loss_avg: 0.389
+acc_avg: 0.900
+  experiment = HEPG2-01  [n =     15]:	loss: 0.425	acc: 0.933	
+  experiment = HEPG2-02  [n =     33]:	loss: 0.826	acc: 0.667	
+  experiment = HEPG2-03  [n =     22]:	loss: 0.306	acc: 0.909	
+  experiment = HEPG2-04  [n =     22]:	loss: 0.263	acc: 0.909	
+  experiment = HEPG2-05  [n =     24]:	loss: 0.144	acc: 1.000	
+  experiment = HEPG2-06  [n =     28]:	loss: 0.223	acc: 1.000	
+  experiment = HEPG2-07  [n =     24]:	loss: 0.262	acc: 0.958	
+  experiment = HUVEC-01  [n =     23]:	loss: 0.175	acc: 0.957	
+  experiment = HUVEC-02  [n =     22]:	loss: 0.095	acc: 1.000	
+  experiment = HUVEC-03  [n =     37]:	loss: 0.644	acc: 0.811	
+  experiment = HUVEC-04  [n =     25]:	loss: 0.350	acc: 0.880	
+  experiment = HUVEC-05  [n =     21]:	loss: 0.354	acc: 0.905	
+  experiment = HUVEC-06  [n =     26]:	loss: 0.438	acc: 0.885	
+  experiment = HUVEC-07  [n =     24]:	loss: 0.277	acc: 0.917	
+  experiment = HUVEC-08  [n =     24]:	loss: 0.091	acc: 1.000	
+  experiment = HUVEC-09  [n =     20]:	loss: 0.248	acc: 0.950	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.403	acc: 0.913	
+  experiment = HUVEC-11  [n =     28]:	loss: 0.642	acc: 0.821	
+  experiment = HUVEC-12  [n =     22]:	loss: 0.224	acc: 0.955	
+  experiment = HUVEC-13  [n =     25]:	loss: 0.322	acc: 0.920	
+  experiment = HUVEC-14  [n =     16]:	loss: 0.354	acc: 0.875	
+  experiment = HUVEC-15  [n =     22]:	loss: 0.284	acc: 0.955	
+  experiment = HUVEC-16  [n =     27]:	loss: 0.323	acc: 0.926	
+  experiment = RPE-01  [n =     27]:	loss: 0.634	acc: 0.852	
+  experiment = RPE-02  [n =     25]:	loss: 0.534	acc: 0.840	
+  experiment = RPE-03  [n =     20]:	loss: 0.771	acc: 0.800	
+  experiment = RPE-04  [n =     24]:	loss: 0.433	acc: 0.917	
+  experiment = RPE-05  [n =     22]:	loss: 0.192	acc: 0.955	
+  experiment = RPE-06  [n =     35]:	loss: 0.231	acc: 0.971	
+  experiment = RPE-07  [n =     28]:	loss: 0.738	acc: 0.786	
+  experiment = U2OS-01  [n =     27]:	loss: 0.546	acc: 0.852	
+  experiment = U2OS-02  [n =     20]:	loss: 0.537	acc: 0.850	
+  experiment = U2OS-03  [n =     19]:	loss: 0.119	acc: 1.000	
+objective: 0.420
+loss_avg: 0.420
+acc_avg: 0.894
+  experiment = HEPG2-01  [n =     15]:	loss: 0.592	acc: 0.733	
+  experiment = HEPG2-02  [n =     23]:	loss: 0.410	acc: 0.913	
+  experiment = HEPG2-03  [n =     20]:	loss: 0.437	acc: 0.900	
+  experiment = HEPG2-04  [n =     19]:	loss: 0.407	acc: 0.895	
+  experiment = HEPG2-05  [n =     18]:	loss: 0.256	acc: 0.889	
+  experiment = HEPG2-06  [n =     27]:	loss: 0.401	acc: 0.852	
+  experiment = HEPG2-07  [n =     31]:	loss: 0.481	acc: 0.903	
+  experiment = HUVEC-01  [n =     27]:	loss: 0.346	acc: 0.889	
+  experiment = HUVEC-02  [n =     20]:	loss: 0.391	acc: 0.950	
+  experiment = HUVEC-03  [n =     26]:	loss: 0.262	acc: 0.923	
+  experiment = HUVEC-04  [n =     23]:	loss: 0.433	acc: 0.957	
+  experiment = HUVEC-05  [n =     25]:	loss: 0.329	acc: 0.920	
+  experiment = HUVEC-06  [n =     30]:	loss: 0.128	acc: 1.000	
+  experiment = HUVEC-07  [n =     28]:	loss: 0.417	acc: 0.929	
+  experiment = HUVEC-08  [n =     29]:	loss: 0.290	acc: 0.931	
+  experiment = HUVEC-09  [n =     21]:	loss: 0.252	acc: 0.905	
+  experiment = HUVEC-10  [n =     22]:	loss: 0.436	acc: 0.773	
+  experiment = HUVEC-11  [n =     24]:	loss: 0.580	acc: 0.917	
+  experiment = HUVEC-12  [n =     22]:	loss: 0.578	acc: 0.818	
+  experiment = HUVEC-13  [n =     23]:	loss: 0.224	acc: 0.957	
+  experiment = HUVEC-14  [n =     27]:	loss: 0.499	acc: 0.889	
+  experiment = HUVEC-15  [n =     19]:	loss: 0.344	acc: 0.895	
+  experiment = HUVEC-16  [n =     22]:	loss: 0.398	acc: 0.909	
+  experiment = RPE-01  [n =     21]:	loss: 0.831	acc: 0.762	
+  experiment = RPE-02  [n =     37]:	loss: 0.558	acc: 0.865	
+  experiment = RPE-03  [n =     23]:	loss: 0.559	acc: 0.870	
+  experiment = RPE-04  [n =     18]:	loss: 0.266	acc: 1.000	
+  experiment = RPE-05  [n =     24]:	loss: 0.473	acc: 0.875	
+  experiment = RPE-06  [n =     31]:	loss: 0.256	acc: 0.968	
+  experiment = RPE-07  [n =     24]:	loss: 0.554	acc: 0.875	
+  experiment = U2OS-01  [n =     26]:	loss: 0.533	acc: 0.769	
+  experiment = U2OS-02  [n =     26]:	loss: 0.492	acc: 0.846	
+  experiment = U2OS-03  [n =     29]:	loss: 0.491	acc: 0.931	
+objective: 0.323
+loss_avg: 0.323
+acc_avg: 0.929
+  experiment = HEPG2-01  [n =     21]:	loss: 0.608	acc: 0.857	
+  experiment = HEPG2-02  [n =     28]:	loss: 0.329	acc: 0.929	
+  experiment = HEPG2-03  [n =     23]:	loss: 0.237	acc: 0.957	
+  experiment = HEPG2-04  [n =     23]:	loss: 0.682	acc: 0.826	
+  experiment = HEPG2-05  [n =     34]:	loss: 0.473	acc: 0.941	
+  experiment = HEPG2-06  [n =     24]:	loss: 0.252	acc: 0.917	
+  experiment = HEPG2-07  [n =     21]:	loss: 0.272	acc: 0.952	
+  experiment = HUVEC-01  [n =     31]:	loss: 0.555	acc: 0.806	
+  experiment = HUVEC-02  [n =     21]:	loss: 0.759	acc: 0.810	
+  experiment = HUVEC-03  [n =     19]:	loss: 0.379	acc: 0.895	
+  experiment = HUVEC-04  [n =     22]:	loss: 0.268	acc: 1.000	
+  experiment = HUVEC-05  [n =     23]:	loss: 0.259	acc: 0.913	
+  experiment = HUVEC-06  [n =     22]:	loss: 0.306	acc: 0.864	
+  experiment = HUVEC-07  [n =     25]:	loss: 0.113	acc: 1.000	
+  experiment = HUVEC-08  [n =     28]:	loss: 0.188	acc: 0.964	
+  experiment = HUVEC-09  [n =     31]:	loss: 0.359	acc: 0.935	
+  experiment = HUVEC-10  [n =     22]:	loss: 0.118	acc: 1.000	
+  experiment = HUVEC-11  [n =     22]:	loss: 0.151	acc: 0.955	
+  experiment = HUVEC-12  [n =     30]:	loss: 0.254	acc: 0.967	
+  experiment = HUVEC-13  [n =     21]:	loss: 0.333	acc: 0.952	
+  experiment = HUVEC-14  [n =     31]:	loss: 0.280	acc: 0.935	
+  experiment = HUVEC-15  [n =     22]:	loss: 0.318	acc: 0.955	
+  experiment = HUVEC-16  [n =     23]:	loss: 0.127	acc: 0.957	
+  experiment = RPE-01  [n =     27]:	loss: 0.249	acc: 0.963	
+  experiment = RPE-02  [n =     22]:	loss: 0.258	acc: 0.909	
+  experiment = RPE-03  [n =     28]:	loss: 0.318	acc: 0.857	
+  experiment = RPE-04  [n =     21]:	loss: 0.251	acc: 0.952	
+  experiment = RPE-05  [n =     19]:	loss: 0.300	acc: 0.947	
+  experiment = RPE-06  [n =     20]:	loss: 0.235	acc: 0.950	
+  experiment = RPE-07  [n =     22]:	loss: 0.261	acc: 1.000	
+  experiment = U2OS-01  [n =     29]:	loss: 0.632	acc: 0.862	
+  experiment = U2OS-02  [n =     21]:	loss: 0.247	acc: 0.952	
+  experiment = U2OS-03  [n =     24]:	loss: 0.161	acc: 1.000	
+objective: 0.411
+loss_avg: 0.411
+acc_avg: 0.913
+  experiment = HEPG2-01  [n =     28]:	loss: 0.786	acc: 0.821	
+  experiment = HEPG2-02  [n =     20]:	loss: 0.495	acc: 0.850	
+  experiment = HEPG2-03  [n =     22]:	loss: 0.256	acc: 1.000	
+  experiment = HEPG2-04  [n =     16]:	loss: 0.290	acc: 0.875	
+  experiment = HEPG2-05  [n =     25]:	loss: 0.286	acc: 0.920	
+  experiment = HEPG2-06  [n =     27]:	loss: 0.401	acc: 0.926	
+  experiment = HEPG2-07  [n =     22]:	loss: 0.273	acc: 0.955	
+  experiment = HUVEC-01  [n =     23]:	loss: 0.400	acc: 0.957	
+  experiment = HUVEC-02  [n =     14]:	loss: 0.497	acc: 0.929	
+  experiment = HUVEC-03  [n =     31]:	loss: 0.288	acc: 0.968	
+  experiment = HUVEC-04  [n =     25]:	loss: 0.189	acc: 1.000	
+  experiment = HUVEC-05  [n =     32]:	loss: 0.464	acc: 0.906	
+  experiment = HUVEC-06  [n =     24]:	loss: 0.115	acc: 1.000	
+  experiment = HUVEC-07  [n =     18]:	loss: 0.157	acc: 1.000	
+  experiment = HUVEC-08  [n =     26]:	loss: 0.176	acc: 0.962	
+  experiment = HUVEC-09  [n =     26]:	loss: 0.277	acc: 0.923	
+  experiment = HUVEC-10  [n =     34]:	loss: 0.629	acc: 0.794	
+  experiment = HUVEC-11  [n =     31]:	loss: 0.521	acc: 0.839	
+  experiment = HUVEC-12  [n =     18]:	loss: 0.746	acc: 0.833	
+  experiment = HUVEC-13  [n =     17]:	loss: 0.510	acc: 0.941	
+  experiment = HUVEC-14  [n =     23]:	loss: 0.145	acc: 1.000	
+  experiment = HUVEC-15  [n =     23]:	loss: 0.242	acc: 0.957	
+  experiment = HUVEC-16  [n =     28]:	loss: 0.470	acc: 0.893	
+  experiment = RPE-01  [n =     36]:	loss: 0.377	acc: 0.944	
+  experiment = RPE-02  [n =     27]:	loss: 0.786	acc: 0.852	
+  experiment = RPE-03  [n =     18]:	loss: 0.559	acc: 0.833	
+  experiment = RPE-04  [n =     21]:	loss: 0.329	acc: 0.952	
+  experiment = RPE-05  [n =     22]:	loss: 0.191	acc: 1.000	
+  experiment = RPE-06  [n =     20]:	loss: 0.387	acc: 0.950	
+  experiment = RPE-07  [n =     34]:	loss: 0.568	acc: 0.794	
+  experiment = U2OS-01  [n =     25]:	loss: 0.652	acc: 0.840	
+  experiment = U2OS-02  [n =     22]:	loss: 0.614	acc: 0.864	
+  experiment = U2OS-03  [n =     22]:	loss: 0.276	acc: 0.955	
+objective: 0.433
+loss_avg: 0.433
+acc_avg: 0.896
+  experiment = HEPG2-01  [n =     19]:	loss: 0.431	acc: 0.947	
+  experiment = HEPG2-02  [n =     26]:	loss: 0.796	acc: 0.769	
+  experiment = HEPG2-03  [n =     27]:	loss: 0.623	acc: 0.852	
+  experiment = HEPG2-04  [n =     31]:	loss: 0.390	acc: 0.935	
+  experiment = HEPG2-05  [n =     22]:	loss: 0.459	acc: 0.909	
+  experiment = HEPG2-06  [n =     27]:	loss: 0.215	acc: 0.963	
+  experiment = HEPG2-07  [n =     31]:	loss: 0.329	acc: 0.935	
+  experiment = HUVEC-01  [n =     25]:	loss: 0.454	acc: 0.840	
+  experiment = HUVEC-02  [n =     19]:	loss: 0.224	acc: 0.895	
+  experiment = HUVEC-03  [n =     23]:	loss: 0.444	acc: 0.870	
+  experiment = HUVEC-04  [n =     24]:	loss: 0.284	acc: 0.875	
+  experiment = HUVEC-05  [n =     31]:	loss: 0.398	acc: 0.968	
+  experiment = HUVEC-06  [n =     21]:	loss: 0.205	acc: 0.905	
+  experiment = HUVEC-07  [n =     17]:	loss: 0.123	acc: 1.000	
+  experiment = HUVEC-08  [n =     13]:	loss: 0.041	acc: 1.000	
+  experiment = HUVEC-09  [n =     28]:	loss: 0.606	acc: 0.857	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.358	acc: 0.957	
+  experiment = HUVEC-11  [n =     29]:	loss: 0.251	acc: 0.931	
+  experiment = HUVEC-12  [n =     26]:	loss: 0.370	acc: 0.923	
+  experiment = HUVEC-13  [n =     20]:	loss: 0.366	acc: 0.900	
+  experiment = HUVEC-14  [n =     15]:	loss: 0.543	acc: 0.867	
+  experiment = HUVEC-15  [n =     22]:	loss: 0.343	acc: 0.909	
+  experiment = HUVEC-16  [n =     30]:	loss: 0.151	acc: 1.000	
+  experiment = RPE-01  [n =     29]:	loss: 0.851	acc: 0.759	
+  experiment = RPE-02  [n =     19]:	loss: 0.519	acc: 0.895	
+  experiment = RPE-03  [n =     24]:	loss: 0.471	acc: 0.875	
+  experiment = RPE-04  [n =     28]:	loss: 0.333	acc: 0.929	
+  experiment = RPE-05  [n =     26]:	loss: 0.359	acc: 0.923	
+  experiment = RPE-06  [n =     23]:	loss: 0.853	acc: 0.826	
+  experiment = RPE-07  [n =     29]:	loss: 0.300	acc: 0.931	
+  experiment = U2OS-01  [n =     23]:	loss: 0.904	acc: 0.739	
+  experiment = U2OS-02  [n =     30]:	loss: 0.629	acc: 0.867	
+  experiment = U2OS-03  [n =     20]:	loss: 0.413	acc: 0.850	
+objective: 0.475
+loss_avg: 0.475
+acc_avg: 0.881
+  experiment = HEPG2-01  [n =     20]:	loss: 0.865	acc: 0.750	
+  experiment = HEPG2-02  [n =     18]:	loss: 0.394	acc: 0.889	
+  experiment = HEPG2-03  [n =     22]:	loss: 0.471	acc: 0.909	
+  experiment = HEPG2-04  [n =     22]:	loss: 0.859	acc: 0.773	
+  experiment = HEPG2-05  [n =     26]:	loss: 0.534	acc: 0.923	
+  experiment = HEPG2-06  [n =     30]:	loss: 0.501	acc: 0.933	
+  experiment = HEPG2-07  [n =     26]:	loss: 0.388	acc: 0.923	
+  experiment = HUVEC-01  [n =     19]:	loss: 0.204	acc: 0.895	
+  experiment = HUVEC-02  [n =     22]:	loss: 0.509	acc: 0.909	
+  experiment = HUVEC-03  [n =     19]:	loss: 0.461	acc: 0.895	
+  experiment = HUVEC-04  [n =     29]:	loss: 0.204	acc: 0.931	
+  experiment = HUVEC-05  [n =     19]:	loss: 0.434	acc: 0.895	
+  experiment = HUVEC-06  [n =     25]:	loss: 0.491	acc: 0.920	
+  experiment = HUVEC-07  [n =     28]:	loss: 0.344	acc: 0.893	
+  experiment = HUVEC-08  [n =     21]:	loss: 0.242	acc: 0.952	
+  experiment = HUVEC-09  [n =     28]:	loss: 0.236	acc: 0.929	
+  experiment = HUVEC-10  [n =     24]:	loss: 0.420	acc: 0.958	
+  experiment = HUVEC-11  [n =     17]:	loss: 0.577	acc: 0.882	
+  experiment = HUVEC-12  [n =     31]:	loss: 0.323	acc: 0.935	
+  experiment = HUVEC-13  [n =     27]:	loss: 0.282	acc: 0.926	
+  experiment = HUVEC-14  [n =     24]:	loss: 0.797	acc: 0.792	
+  experiment = HUVEC-15  [n =     25]:	loss: 0.085	acc: 1.000	
+  experiment = HUVEC-16  [n =     37]:	loss: 0.310	acc: 0.892	
+  experiment = RPE-01  [n =     25]:	loss: 0.488	acc: 0.840	
+  experiment = RPE-02  [n =     28]:	loss: 0.835	acc: 0.750	
+  experiment = RPE-03  [n =     28]:	loss: 0.550	acc: 0.821	
+  experiment = RPE-04  [n =     19]:	loss: 0.120	acc: 1.000	
+  experiment = RPE-05  [n =     19]:	loss: 0.506	acc: 0.842	
+  experiment = RPE-06  [n =     23]:	loss: 0.770	acc: 0.739	
+  experiment = RPE-07  [n =     28]:	loss: 0.513	acc: 0.929	
+  experiment = U2OS-01  [n =     22]:	loss: 0.453	acc: 0.909	
+  experiment = U2OS-02  [n =     26]:	loss: 0.741	acc: 0.808	
+  experiment = U2OS-03  [n =     23]:	loss: 0.927	acc: 0.696	
+objective: 0.414
+loss_avg: 0.414
+acc_avg: 0.891
+  experiment = HEPG2-01  [n =     22]:	loss: 0.341	acc: 0.909	
+  experiment = HEPG2-02  [n =     32]:	loss: 0.412	acc: 0.906	
+  experiment = HEPG2-03  [n =     31]:	loss: 0.287	acc: 0.935	
+  experiment = HEPG2-04  [n =     20]:	loss: 0.928	acc: 0.700	
+  experiment = HEPG2-05  [n =     19]:	loss: 0.586	acc: 0.737	
+  experiment = HEPG2-06  [n =     25]:	loss: 0.817	acc: 0.800	
+  experiment = HEPG2-07  [n =     27]:	loss: 0.779	acc: 0.704	
+  experiment = HUVEC-01  [n =     26]:	loss: 0.359	acc: 0.885	
+  experiment = HUVEC-02  [n =     28]:	loss: 0.202	acc: 1.000	
+  experiment = HUVEC-03  [n =     15]:	loss: 0.422	acc: 0.867	
+  experiment = HUVEC-04  [n =     24]:	loss: 0.671	acc: 0.875	
+  experiment = HUVEC-05  [n =     27]:	loss: 0.601	acc: 0.926	
+  experiment = HUVEC-06  [n =     22]:	loss: 0.412	acc: 0.909	
+  experiment = HUVEC-07  [n =     25]:	loss: 0.298	acc: 0.920	
+  experiment = HUVEC-08  [n =     24]:	loss: 0.420	acc: 0.917	
+  experiment = HUVEC-09  [n =     22]:	loss: 0.200	acc: 0.955	
+  experiment = HUVEC-10  [n =     34]:	loss: 0.284	acc: 0.912	
+  experiment = HUVEC-11  [n =     27]:	loss: 0.303	acc: 0.889	
+  experiment = HUVEC-12  [n =     34]:	loss: 0.530	acc: 0.882	
+  experiment = HUVEC-13  [n =     28]:	loss: 0.204	acc: 0.964	
+  experiment = HUVEC-14  [n =     25]:	loss: 0.281	acc: 0.880	
+  experiment = HUVEC-15  [n =     30]:	loss: 0.240	acc: 0.900	
+  experiment = HUVEC-16  [n =     22]:	loss: 0.301	acc: 0.864	
+  experiment = RPE-01  [n =     25]:	loss: 0.146	acc: 0.960	
+  experiment = RPE-02  [n =     23]:	loss: 0.524	acc: 0.957	
+  experiment = RPE-03  [n =     14]:	loss: 0.478	acc: 0.857	
+  experiment = RPE-04  [n =     18]:	loss: 0.250	acc: 0.944	
+  experiment = RPE-05  [n =     23]:	loss: 0.324	acc: 0.913	
+  experiment = RPE-06  [n =     20]:	loss: 0.244	acc: 0.950	
+  experiment = RPE-07  [n =     23]:	loss: 0.280	acc: 1.000	
+  experiment = U2OS-01  [n =     20]:	loss: 0.559	acc: 0.750	
+  experiment = U2OS-02  [n =     25]:	loss: 0.704	acc: 0.840	
+  experiment = U2OS-03  [n =     20]:	loss: 0.456	acc: 0.900	
+objective: 0.464
+loss_avg: 0.464
+acc_avg: 0.893
+  experiment = HEPG2-01  [n =     32]:	loss: 0.707	acc: 0.750	
+  experiment = HEPG2-02  [n =     19]:	loss: 0.238	acc: 0.895	
+  experiment = HEPG2-03  [n =     14]:	loss: 0.591	acc: 0.929	
+  experiment = HEPG2-04  [n =     20]:	loss: 0.397	acc: 0.950	
+  experiment = HEPG2-05  [n =     32]:	loss: 0.426	acc: 0.937	
+  experiment = HEPG2-06  [n =     14]:	loss: 0.367	acc: 0.929	
+  experiment = HEPG2-07  [n =     21]:	loss: 0.711	acc: 0.762	
+  experiment = HUVEC-01  [n =     30]:	loss: 0.484	acc: 0.933	
+  experiment = HUVEC-02  [n =     29]:	loss: 0.409	acc: 0.897	
+  experiment = HUVEC-03  [n =     31]:	loss: 0.430	acc: 0.935	
+  experiment = HUVEC-04  [n =     20]:	loss: 0.138	acc: 0.950	
+  experiment = HUVEC-05  [n =     24]:	loss: 0.570	acc: 0.833	
+  experiment = HUVEC-06  [n =     23]:	loss: 0.538	acc: 0.870	
+  experiment = HUVEC-07  [n =     19]:	loss: 0.259	acc: 0.947	
+  experiment = HUVEC-08  [n =     20]:	loss: 0.596	acc: 0.850	
+  experiment = HUVEC-09  [n =     25]:	loss: 0.132	acc: 0.960	
+  experiment = HUVEC-10  [n =     19]:	loss: 0.342	acc: 0.947	
+  experiment = HUVEC-11  [n =     32]:	loss: 0.339	acc: 0.875	
+  experiment = HUVEC-12  [n =     24]:	loss: 0.165	acc: 1.000	
+  experiment = HUVEC-13  [n =     22]:	loss: 0.515	acc: 0.818	
+  experiment = HUVEC-14  [n =     28]:	loss: 0.262	acc: 0.929	
+  experiment = HUVEC-15  [n =     37]:	loss: 0.387	acc: 0.892	
+  experiment = HUVEC-16  [n =     23]:	loss: 0.424	acc: 0.957	
+  experiment = RPE-01  [n =     16]:	loss: 0.468	acc: 0.938	
+  experiment = RPE-02  [n =     19]:	loss: 0.711	acc: 0.737	
+  experiment = RPE-03  [n =     27]:	loss: 0.391	acc: 0.926	
+  experiment = RPE-04  [n =     22]:	loss: 0.241	acc: 1.000	
+  experiment = RPE-05  [n =     24]:	loss: 0.547	acc: 0.875	
+  experiment = RPE-06  [n =     20]:	loss: 0.577	acc: 0.850	
+  experiment = RPE-07  [n =     28]:	loss: 0.735	acc: 0.821	
+  experiment = U2OS-01  [n =     26]:	loss: 0.985	acc: 0.769	
+  experiment = U2OS-02  [n =     29]:	loss: 0.786	acc: 0.862	
+  experiment = U2OS-03  [n =     31]:	loss: 0.355	acc: 0.968	
+objective: 0.457
+loss_avg: 0.457
+acc_avg: 0.882
+  experiment = HEPG2-01  [n =     26]:	loss: 0.419	acc: 0.846	
+  experiment = HEPG2-02  [n =     27]:	loss: 0.935	acc: 0.704	
+  experiment = HEPG2-03  [n =     25]:	loss: 0.770	acc: 0.840	
+  experiment = HEPG2-04  [n =     22]:	loss: 0.488	acc: 0.818	
+  experiment = HEPG2-05  [n =     24]:	loss: 0.705	acc: 0.833	
+  experiment = HEPG2-06  [n =     18]:	loss: 0.747	acc: 0.778	
+  experiment = HEPG2-07  [n =     20]:	loss: 0.297	acc: 1.000	
+  experiment = HUVEC-01  [n =     26]:	loss: 0.098	acc: 1.000	
+  experiment = HUVEC-02  [n =     22]:	loss: 0.405	acc: 0.955	
+  experiment = HUVEC-03  [n =     26]:	loss: 0.325	acc: 0.885	
+  experiment = HUVEC-04  [n =     26]:	loss: 0.202	acc: 0.962	
+  experiment = HUVEC-05  [n =     41]:	loss: 0.369	acc: 0.902	
+  experiment = HUVEC-06  [n =     22]:	loss: 0.311	acc: 0.864	
+  experiment = HUVEC-07  [n =     17]:	loss: 0.683	acc: 0.824	
+  experiment = HUVEC-08  [n =     15]:	loss: 0.309	acc: 0.933	
+  experiment = HUVEC-09  [n =     16]:	loss: 0.732	acc: 0.750	
+  experiment = HUVEC-10  [n =     32]:	loss: 0.480	acc: 0.875	
+  experiment = HUVEC-11  [n =     23]:	loss: 0.183	acc: 0.957	
+  experiment = HUVEC-12  [n =     18]:	loss: 0.401	acc: 0.944	
+  experiment = HUVEC-13  [n =     31]:	loss: 0.167	acc: 0.935	
+  experiment = HUVEC-14  [n =     36]:	loss: 0.522	acc: 0.806	
+  experiment = HUVEC-15  [n =     18]:	loss: 0.586	acc: 0.889	
+  experiment = HUVEC-16  [n =     19]:	loss: 0.107	acc: 1.000	
+  experiment = RPE-01  [n =     19]:	loss: 0.342	acc: 1.000	
+  experiment = RPE-02  [n =     29]:	loss: 0.499	acc: 0.862	
+  experiment = RPE-03  [n =     23]:	loss: 0.443	acc: 0.826	
+  experiment = RPE-04  [n =     26]:	loss: 0.610	acc: 0.808	
+  experiment = RPE-05  [n =     33]:	loss: 0.712	acc: 0.848	
+  experiment = RPE-06  [n =     28]:	loss: 0.554	acc: 0.893	
+  experiment = RPE-07  [n =     28]:	loss: 0.193	acc: 0.964	
+  experiment = U2OS-01  [n =     21]:	loss: 0.402	acc: 0.905	
+  experiment = U2OS-02  [n =     22]:	loss: 0.608	acc: 0.864	
+  experiment = U2OS-03  [n =     21]:	loss: 0.535	acc: 0.905	
+objective: 0.482
+loss_avg: 0.482
+acc_avg: 0.875
+  experiment = HEPG2-01  [n =     26]:	loss: 0.748	acc: 0.885	
+  experiment = HEPG2-02  [n =     22]:	loss: 0.571	acc: 0.818	
+  experiment = HEPG2-03  [n =     22]:	loss: 0.281	acc: 0.955	
+  experiment = HEPG2-04  [n =     23]:	loss: 0.620	acc: 0.826	
+  experiment = HEPG2-05  [n =     18]:	loss: 0.680	acc: 0.833	
+  experiment = HEPG2-06  [n =     16]:	loss: 0.581	acc: 0.875	
+  experiment = HEPG2-07  [n =     26]:	loss: 0.314	acc: 0.923	
+  experiment = HUVEC-01  [n =     20]:	loss: 0.384	acc: 0.900	
+  experiment = HUVEC-02  [n =     26]:	loss: 0.207	acc: 0.923	
+  experiment = HUVEC-03  [n =     20]:	loss: 0.867	acc: 0.800	
+  experiment = HUVEC-04  [n =     24]:	loss: 0.174	acc: 1.000	
+  experiment = HUVEC-05  [n =     25]:	loss: 0.426	acc: 0.920	
+  experiment = HUVEC-06  [n =     28]:	loss: 0.487	acc: 0.893	
+  experiment = HUVEC-07  [n =     37]:	loss: 0.181	acc: 0.946	
+  experiment = HUVEC-08  [n =     26]:	loss: 0.096	acc: 0.962	
+  experiment = HUVEC-09  [n =     33]:	loss: 0.629	acc: 0.727	
+  experiment = HUVEC-10  [n =     34]:	loss: 0.355	acc: 0.882	
+  experiment = HUVEC-11  [n =     39]:	loss: 0.370	acc: 0.872	
+  experiment = HUVEC-12  [n =     22]:	loss: 0.131	acc: 1.000	
+  experiment = HUVEC-13  [n =     27]:	loss: 0.289	acc: 0.926	
+  experiment = HUVEC-14  [n =     21]:	loss: 0.733	acc: 0.905	
+  experiment = HUVEC-15  [n =     19]:	loss: 0.144	acc: 1.000	
+  experiment = HUVEC-16  [n =     21]:	loss: 0.518	acc: 0.857	
+  experiment = RPE-01  [n =     23]:	loss: 0.690	acc: 0.870	
+  experiment = RPE-02  [n =     25]:	loss: 0.508	acc: 0.880	
+  experiment = RPE-03  [n =     17]:	loss: 0.790	acc: 0.765	
+  experiment = RPE-04  [n =     19]:	loss: 0.307	acc: 0.947	
+  experiment = RPE-05  [n =     23]:	loss: 1.014	acc: 0.696	
+  experiment = RPE-06  [n =     23]:	loss: 0.420	acc: 0.870	
+  experiment = RPE-07  [n =     21]:	loss: 0.703	acc: 0.762	
+  experiment = U2OS-01  [n =     28]:	loss: 0.774	acc: 0.821	
+  experiment = U2OS-02  [n =     30]:	loss: 0.760	acc: 0.767	
+  experiment = U2OS-03  [n =     16]:	loss: 0.510	acc: 0.875	
+objective: 0.552
+loss_avg: 0.552
+acc_avg: 0.859
+  experiment = HEPG2-01  [n =     15]:	loss: 0.700	acc: 0.733	
+  experiment = HEPG2-02  [n =     32]:	loss: 0.442	acc: 0.875	
+  experiment = HEPG2-03  [n =     28]:	loss: 0.442	acc: 0.929	
+  experiment = HEPG2-04  [n =     31]:	loss: 0.588	acc: 0.839	
+  experiment = HEPG2-05  [n =     23]:	loss: 1.003	acc: 0.739	
+  experiment = HEPG2-06  [n =     24]:	loss: 0.402	acc: 0.917	
+  experiment = HEPG2-07  [n =     23]:	loss: 0.655	acc: 0.783	
+  experiment = HUVEC-01  [n =     25]:	loss: 0.278	acc: 0.960	
+  experiment = HUVEC-02  [n =     26]:	loss: 0.618	acc: 0.769	
+  experiment = HUVEC-03  [n =     17]:	loss: 0.625	acc: 0.824	
+  experiment = HUVEC-04  [n =     24]:	loss: 0.427	acc: 0.875	
+  experiment = HUVEC-05  [n =     23]:	loss: 0.548	acc: 0.913	
+  experiment = HUVEC-06  [n =     23]:	loss: 0.804	acc: 0.783	
+  experiment = HUVEC-07  [n =     18]:	loss: 0.091	acc: 1.000	
+  experiment = HUVEC-08  [n =     24]:	loss: 0.249	acc: 0.958	
+  experiment = HUVEC-09  [n =     23]:	loss: 0.728	acc: 0.870	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.082	acc: 1.000	
+  experiment = HUVEC-11  [n =     19]:	loss: 0.722	acc: 0.789	
+  experiment = HUVEC-12  [n =     21]:	loss: 0.623	acc: 0.810	
+  experiment = HUVEC-13  [n =     23]:	loss: 0.521	acc: 0.870	
+  experiment = HUVEC-14  [n =     21]:	loss: 0.611	acc: 0.762	
+  experiment = HUVEC-15  [n =     23]:	loss: 0.366	acc: 0.913	
+  experiment = HUVEC-16  [n =     22]:	loss: 0.189	acc: 1.000	
+  experiment = RPE-01  [n =     24]:	loss: 0.861	acc: 0.792	
+  experiment = RPE-02  [n =     31]:	loss: 0.317	acc: 0.935	
+  experiment = RPE-03  [n =     34]:	loss: 0.617	acc: 0.824	
+  experiment = RPE-04  [n =     30]:	loss: 0.786	acc: 0.800	
+  experiment = RPE-05  [n =     24]:	loss: 0.566	acc: 0.750	
+  experiment = RPE-06  [n =     24]:	loss: 0.835	acc: 0.792	
+  experiment = RPE-07  [n =     25]:	loss: 0.688	acc: 0.840	
+  experiment = U2OS-01  [n =     30]:	loss: 0.927	acc: 0.833	
+  experiment = U2OS-02  [n =     22]:	loss: 0.668	acc: 0.818	
+  experiment = U2OS-03  [n =     25]:	loss: 0.207	acc: 1.000	
+objective: 0.475
+loss_avg: 0.475
+acc_avg: 0.879
+  experiment = HEPG2-01  [n =     31]:	loss: 0.529	acc: 0.871	
+  experiment = HEPG2-02  [n =     20]:	loss: 0.600	acc: 0.850	
+  experiment = HEPG2-03  [n =     23]:	loss: 0.336	acc: 0.913	
+  experiment = HEPG2-04  [n =     21]:	loss: 0.241	acc: 0.905	
+  experiment = HEPG2-05  [n =     15]:	loss: 0.666	acc: 0.867	
+  experiment = HEPG2-06  [n =     21]:	loss: 0.530	acc: 0.857	
+  experiment = HEPG2-07  [n =     17]:	loss: 0.300	acc: 0.882	
+  experiment = HUVEC-01  [n =     27]:	loss: 0.586	acc: 0.815	
+  experiment = HUVEC-02  [n =     29]:	loss: 0.326	acc: 0.897	
+  experiment = HUVEC-03  [n =     16]:	loss: 0.518	acc: 0.812	
+  experiment = HUVEC-04  [n =     22]:	loss: 0.406	acc: 0.864	
+  experiment = HUVEC-05  [n =     29]:	loss: 0.389	acc: 0.931	
+  experiment = HUVEC-06  [n =     22]:	loss: 0.369	acc: 0.864	
+  experiment = HUVEC-07  [n =     18]:	loss: 0.387	acc: 0.889	
+  experiment = HUVEC-08  [n =     25]:	loss: 0.188	acc: 1.000	
+  experiment = HUVEC-09  [n =     21]:	loss: 0.911	acc: 0.714	
+  experiment = HUVEC-10  [n =     28]:	loss: 0.448	acc: 0.929	
+  experiment = HUVEC-11  [n =     24]:	loss: 0.163	acc: 0.958	
+  experiment = HUVEC-12  [n =     23]:	loss: 0.190	acc: 1.000	
+  experiment = HUVEC-13  [n =     28]:	loss: 0.194	acc: 0.929	
+  experiment = HUVEC-14  [n =     24]:	loss: 0.523	acc: 0.875	
+  experiment = HUVEC-15  [n =     26]:	loss: 0.420	acc: 0.885	
+  experiment = HUVEC-16  [n =     27]:	loss: 0.340	acc: 0.926	
+  experiment = RPE-01  [n =     36]:	loss: 0.661	acc: 0.861	
+  experiment = RPE-02  [n =     30]:	loss: 0.424	acc: 0.933	
+  experiment = RPE-03  [n =     25]:	loss: 0.648	acc: 0.800	
+  experiment = RPE-04  [n =     22]:	loss: 0.356	acc: 0.909	
+  experiment = RPE-05  [n =     23]:	loss: 0.722	acc: 0.783	
+  experiment = RPE-06  [n =     29]:	loss: 0.610	acc: 0.862	
+  experiment = RPE-07  [n =     25]:	loss: 0.540	acc: 0.840	
+  experiment = U2OS-01  [n =     24]:	loss: 0.650	acc: 0.833	
+  experiment = U2OS-02  [n =     28]:	loss: 0.985	acc: 0.821	
+  experiment = U2OS-03  [n =     21]:	loss: 0.450	acc: 0.857	
+objective: 0.535
+loss_avg: 0.535
+acc_avg: 0.872
+  experiment = HEPG2-01  [n =     20]:	loss: 0.616	acc: 0.850	
+  experiment = HEPG2-02  [n =     22]:	loss: 0.468	acc: 0.909	
+  experiment = HEPG2-03  [n =     24]:	loss: 0.293	acc: 0.958	
+  experiment = HEPG2-04  [n =     26]:	loss: 0.366	acc: 0.962	
+  experiment = HEPG2-05  [n =     26]:	loss: 0.979	acc: 0.808	
+  experiment = HEPG2-06  [n =     25]:	loss: 0.922	acc: 0.840	
+  experiment = HEPG2-07  [n =     20]:	loss: 0.508	acc: 0.900	
+  experiment = HUVEC-01  [n =     39]:	loss: 0.609	acc: 0.897	
+  experiment = HUVEC-02  [n =     17]:	loss: 0.584	acc: 0.765	
+  experiment = HUVEC-03  [n =     27]:	loss: 0.325	acc: 0.889	
+  experiment = HUVEC-04  [n =     25]:	loss: 0.480	acc: 0.840	
+  experiment = HUVEC-05  [n =     18]:	loss: 0.607	acc: 0.944	
+  experiment = HUVEC-06  [n =     28]:	loss: 0.340	acc: 0.929	
+  experiment = HUVEC-07  [n =     26]:	loss: 0.448	acc: 0.846	
+  experiment = HUVEC-08  [n =     31]:	loss: 0.342	acc: 0.871	
+  experiment = HUVEC-09  [n =     13]:	loss: 0.446	acc: 0.846	
+  experiment = HUVEC-10  [n =     18]:	loss: 0.199	acc: 0.944	
+  experiment = HUVEC-11  [n =     29]:	loss: 0.336	acc: 0.966	
+  experiment = HUVEC-12  [n =     24]:	loss: 0.346	acc: 0.875	
+  experiment = HUVEC-13  [n =     25]:	loss: 0.218	acc: 0.960	
+  experiment = HUVEC-14  [n =     24]:	loss: 0.602	acc: 0.833	
+  experiment = HUVEC-15  [n =     29]:	loss: 0.621	acc: 0.828	
+  experiment = HUVEC-16  [n =     16]:	loss: 0.790	acc: 0.812	
+  experiment = RPE-01  [n =     25]:	loss: 0.849	acc: 0.840	
+  experiment = RPE-02  [n =     24]:	loss: 0.428	acc: 0.833	
+  experiment = RPE-03  [n =     19]:	loss: 0.354	acc: 0.947	
+  experiment = RPE-04  [n =     23]:	loss: 0.428	acc: 0.913	
+  experiment = RPE-05  [n =     29]:	loss: 0.284	acc: 1.000	
+  experiment = RPE-06  [n =     25]:	loss: 0.768	acc: 0.800	
+  experiment = RPE-07  [n =     22]:	loss: 0.578	acc: 0.864	
+  experiment = U2OS-01  [n =     34]:	loss: 0.831	acc: 0.735	
+  experiment = U2OS-02  [n =     24]:	loss: 0.965	acc: 0.708	
+  experiment = U2OS-03  [n =     23]:	loss: 0.674	acc: 0.870	
+objective: 0.546
+loss_avg: 0.546
+acc_avg: 0.869
+  experiment = HEPG2-01  [n =     22]:	loss: 0.506	acc: 0.864	
+  experiment = HEPG2-02  [n =     23]:	loss: 0.629	acc: 0.870	
+  experiment = HEPG2-03  [n =     27]:	loss: 0.293	acc: 0.963	
+  experiment = HEPG2-04  [n =     28]:	loss: 0.199	acc: 0.964	
+  experiment = HEPG2-05  [n =     28]:	loss: 0.459	acc: 0.929	
+  experiment = HEPG2-06  [n =     18]:	loss: 0.489	acc: 0.889	
+  experiment = HEPG2-07  [n =     24]:	loss: 0.836	acc: 0.792	
+  experiment = HUVEC-01  [n =     26]:	loss: 0.318	acc: 0.885	
+  experiment = HUVEC-02  [n =     28]:	loss: 0.211	acc: 0.929	
+  experiment = HUVEC-03  [n =     27]:	loss: 0.416	acc: 0.926	
+  experiment = HUVEC-04  [n =     24]:	loss: 0.637	acc: 0.875	
+  experiment = HUVEC-05  [n =     21]:	loss: 0.494	acc: 0.905	
+  experiment = HUVEC-06  [n =     28]:	loss: 0.621	acc: 0.857	
+  experiment = HUVEC-07  [n =     21]:	loss: 1.071	acc: 0.667	
+  experiment = HUVEC-08  [n =     26]:	loss: 0.621	acc: 0.846	
+  experiment = HUVEC-09  [n =     33]:	loss: 0.542	acc: 0.909	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.208	acc: 1.000	
+  experiment = HUVEC-11  [n =     24]:	loss: 0.518	acc: 0.875	
+  experiment = HUVEC-12  [n =     16]:	loss: 0.471	acc: 0.875	
+  experiment = HUVEC-13  [n =     28]:	loss: 0.600	acc: 0.786	
+  experiment = HUVEC-14  [n =     23]:	loss: 0.658	acc: 0.783	
+  experiment = HUVEC-15  [n =     23]:	loss: 0.270	acc: 0.913	
+  experiment = HUVEC-16  [n =     11]:	loss: 0.918	acc: 0.818	
+  experiment = RPE-01  [n =     25]:	loss: 0.476	acc: 0.960	
+  experiment = RPE-02  [n =     27]:	loss: 0.478	acc: 0.889	
+  experiment = RPE-03  [n =     26]:	loss: 0.770	acc: 0.808	
+  experiment = RPE-04  [n =     23]:	loss: 0.468	acc: 0.913	
+  experiment = RPE-05  [n =     31]:	loss: 0.409	acc: 0.903	
+  experiment = RPE-06  [n =     21]:	loss: 0.632	acc: 0.857	
+  experiment = RPE-07  [n =     25]:	loss: 1.205	acc: 0.640	
+  experiment = U2OS-01  [n =     25]:	loss: 0.766	acc: 0.760	
+  experiment = U2OS-02  [n =     25]:	loss: 0.631	acc: 0.880	
+  experiment = U2OS-03  [n =     20]:	loss: 0.582	acc: 0.850	
+objective: 0.536
+loss_avg: 0.536
+acc_avg: 0.875
+  experiment = HEPG2-01  [n =     30]:	loss: 0.611	acc: 0.867	
+  experiment = HEPG2-02  [n =     25]:	loss: 1.062	acc: 0.720	
+  experiment = HEPG2-03  [n =     24]:	loss: 0.420	acc: 0.917	
+  experiment = HEPG2-04  [n =     19]:	loss: 0.720	acc: 0.842	
+  experiment = HEPG2-05  [n =     23]:	loss: 0.525	acc: 0.913	
+  experiment = HEPG2-06  [n =     25]:	loss: 0.458	acc: 0.920	
+  experiment = HEPG2-07  [n =     31]:	loss: 0.452	acc: 0.871	
+  experiment = HUVEC-01  [n =     30]:	loss: 0.349	acc: 0.933	
+  experiment = HUVEC-02  [n =     28]:	loss: 0.536	acc: 0.821	
+  experiment = HUVEC-03  [n =     19]:	loss: 0.104	acc: 1.000	
+  experiment = HUVEC-04  [n =     33]:	loss: 0.220	acc: 0.970	
+  experiment = HUVEC-05  [n =     18]:	loss: 0.673	acc: 0.944	
+  experiment = HUVEC-06  [n =     25]:	loss: 0.355	acc: 0.880	
+  experiment = HUVEC-07  [n =     26]:	loss: 0.242	acc: 0.923	
+  experiment = HUVEC-08  [n =     20]:	loss: 0.477	acc: 0.950	
+  experiment = HUVEC-09  [n =     24]:	loss: 0.157	acc: 1.000	
+  experiment = HUVEC-10  [n =      8]:	loss: 0.273	acc: 1.000	
+  experiment = HUVEC-11  [n =     26]:	loss: 0.157	acc: 0.962	
+  experiment = HUVEC-12  [n =     24]:	loss: 0.436	acc: 0.917	
+  experiment = HUVEC-13  [n =     21]:	loss: 0.136	acc: 0.952	
+  experiment = HUVEC-14  [n =     21]:	loss: 0.346	acc: 0.905	
+  experiment = HUVEC-15  [n =     25]:	loss: 0.370	acc: 0.920	
+  experiment = HUVEC-16  [n =     21]:	loss: 1.260	acc: 0.667	
+  experiment = RPE-01  [n =     34]:	loss: 0.887	acc: 0.735	
+  experiment = RPE-02  [n =     31]:	loss: 0.559	acc: 0.839	
+  experiment = RPE-03  [n =     19]:	loss: 0.649	acc: 0.789	
+  experiment = RPE-04  [n =     32]:	loss: 0.412	acc: 0.906	
+  experiment = RPE-05  [n =     32]:	loss: 0.429	acc: 0.906	
+  experiment = RPE-06  [n =     29]:	loss: 0.920	acc: 0.759	
+  experiment = RPE-07  [n =     20]:	loss: 1.349	acc: 0.800	
+  experiment = U2OS-01  [n =     15]:	loss: 0.889	acc: 0.800	
+  experiment = U2OS-02  [n =     23]:	loss: 1.025	acc: 0.696	
+  experiment = U2OS-03  [n =     19]:	loss: 0.383	acc: 0.947	
+objective: 0.506
+loss_avg: 0.506
+acc_avg: 0.880
+  experiment = HEPG2-01  [n =     33]:	loss: 0.663	acc: 0.848	
+  experiment = HEPG2-02  [n =     26]:	loss: 0.742	acc: 0.808	
+  experiment = HEPG2-03  [n =     23]:	loss: 0.340	acc: 0.957	
+  experiment = HEPG2-04  [n =     23]:	loss: 0.742	acc: 0.739	
+  experiment = HEPG2-05  [n =     21]:	loss: 0.517	acc: 0.905	
+  experiment = HEPG2-06  [n =     22]:	loss: 0.406	acc: 0.955	
+  experiment = HEPG2-07  [n =     18]:	loss: 0.677	acc: 0.833	
+  experiment = HUVEC-01  [n =     24]:	loss: 0.306	acc: 0.958	
+  experiment = HUVEC-02  [n =     20]:	loss: 0.223	acc: 0.900	
+  experiment = HUVEC-03  [n =     28]:	loss: 0.612	acc: 0.786	
+  experiment = HUVEC-04  [n =     22]:	loss: 0.298	acc: 0.955	
+  experiment = HUVEC-05  [n =     25]:	loss: 0.641	acc: 0.880	
+  experiment = HUVEC-06  [n =     31]:	loss: 0.271	acc: 0.968	
+  experiment = HUVEC-07  [n =     27]:	loss: 0.362	acc: 0.889	
+  experiment = HUVEC-08  [n =     22]:	loss: 0.523	acc: 0.864	
+  experiment = HUVEC-09  [n =     27]:	loss: 0.222	acc: 0.963	
+  experiment = HUVEC-10  [n =     30]:	loss: 0.537	acc: 0.833	
+  experiment = HUVEC-11  [n =     30]:	loss: 0.319	acc: 0.900	
+  experiment = HUVEC-12  [n =     21]:	loss: 0.278	acc: 0.952	
+  experiment = HUVEC-13  [n =     31]:	loss: 0.299	acc: 0.903	
+  experiment = HUVEC-14  [n =     26]:	loss: 0.287	acc: 0.923	
+  experiment = HUVEC-15  [n =     22]:	loss: 0.521	acc: 0.864	
+  experiment = HUVEC-16  [n =     31]:	loss: 0.604	acc: 0.871	
+  experiment = RPE-01  [n =     13]:	loss: 0.515	acc: 0.846	
+  experiment = RPE-02  [n =     25]:	loss: 0.451	acc: 0.960	
+  experiment = RPE-03  [n =     20]:	loss: 0.434	acc: 0.900	
+  experiment = RPE-04  [n =     29]:	loss: 0.639	acc: 0.828	
+  experiment = RPE-05  [n =     31]:	loss: 0.693	acc: 0.871	
+  experiment = RPE-06  [n =     16]:	loss: 0.387	acc: 0.938	
+  experiment = RPE-07  [n =     27]:	loss: 1.046	acc: 0.704	
+  experiment = U2OS-01  [n =     19]:	loss: 0.498	acc: 0.895	
+  experiment = U2OS-02  [n =     16]:	loss: 0.668	acc: 0.875	
+  experiment = U2OS-03  [n =     21]:	loss: 0.950	acc: 0.810	
+objective: 0.502
+loss_avg: 0.502
+acc_avg: 0.876
+  experiment = HEPG2-01  [n =     35]:	loss: 0.346	acc: 0.943	
+  experiment = HEPG2-02  [n =     20]:	loss: 0.883	acc: 0.800	
+  experiment = HEPG2-03  [n =     28]:	loss: 0.637	acc: 0.893	
+  experiment = HEPG2-04  [n =     26]:	loss: 0.603	acc: 0.885	
+  experiment = HEPG2-05  [n =     21]:	loss: 0.776	acc: 0.857	
+  experiment = HEPG2-06  [n =     26]:	loss: 0.766	acc: 0.769	
+  experiment = HEPG2-07  [n =     19]:	loss: 0.511	acc: 0.842	
+  experiment = HUVEC-01  [n =     28]:	loss: 0.544	acc: 0.857	
+  experiment = HUVEC-02  [n =     29]:	loss: 0.541	acc: 0.828	
+  experiment = HUVEC-03  [n =     25]:	loss: 0.478	acc: 0.840	
+  experiment = HUVEC-04  [n =     31]:	loss: 0.323	acc: 0.935	
+  experiment = HUVEC-05  [n =     21]:	loss: 0.426	acc: 0.905	
+  experiment = HUVEC-06  [n =     18]:	loss: 0.397	acc: 0.889	
+  experiment = HUVEC-07  [n =     18]:	loss: 0.224	acc: 0.889	
+  experiment = HUVEC-08  [n =     28]:	loss: 0.397	acc: 0.857	
+  experiment = HUVEC-09  [n =     20]:	loss: 0.501	acc: 0.850	
+  experiment = HUVEC-10  [n =     19]:	loss: 0.281	acc: 0.947	
+  experiment = HUVEC-11  [n =     20]:	loss: 0.209	acc: 0.950	
+  experiment = HUVEC-12  [n =     26]:	loss: 0.538	acc: 0.769	
+  experiment = HUVEC-13  [n =     27]:	loss: 0.631	acc: 0.815	
+  experiment = HUVEC-14  [n =     19]:	loss: 0.622	acc: 0.842	
+  experiment = HUVEC-15  [n =     20]:	loss: 0.119	acc: 1.000	
+  experiment = HUVEC-16  [n =     16]:	loss: 0.417	acc: 0.875	
+  experiment = RPE-01  [n =     38]:	loss: 0.502	acc: 0.895	
+  experiment = RPE-02  [n =     19]:	loss: 0.459	acc: 0.895	
+  experiment = RPE-03  [n =     30]:	loss: 0.353	acc: 0.900	
+  experiment = RPE-04  [n =     22]:	loss: 0.303	acc: 0.955	
+  experiment = RPE-05  [n =     27]:	loss: 0.538	acc: 0.926	
+  experiment = RPE-06  [n =     28]:	loss: 0.637	acc: 0.857	
+  experiment = RPE-07  [n =     17]:	loss: 0.748	acc: 0.824	
+  experiment = U2OS-01  [n =     28]:	loss: 0.558	acc: 0.893	
+  experiment = U2OS-02  [n =     27]:	loss: 0.568	acc: 0.852	
+  experiment = U2OS-03  [n =     24]:	loss: 0.671	acc: 0.875	
+objective: 0.515
+loss_avg: 0.515
+acc_avg: 0.866
+  experiment = HEPG2-01  [n =     31]:	loss: 0.547	acc: 0.871	
+  experiment = HEPG2-02  [n =     18]:	loss: 0.349	acc: 0.889	
+  experiment = HEPG2-03  [n =     22]:	loss: 0.334	acc: 0.864	
+  experiment = HEPG2-04  [n =     39]:	loss: 0.529	acc: 0.821	
+  experiment = HEPG2-05  [n =     22]:	loss: 0.566	acc: 0.909	
+  experiment = HEPG2-06  [n =     34]:	loss: 0.541	acc: 0.882	
+  experiment = HEPG2-07  [n =     21]:	loss: 0.683	acc: 0.857	
+  experiment = HUVEC-01  [n =     28]:	loss: 0.178	acc: 0.964	
+  experiment = HUVEC-02  [n =     17]:	loss: 0.657	acc: 0.765	
+  experiment = HUVEC-03  [n =     22]:	loss: 0.276	acc: 0.955	
+  experiment = HUVEC-04  [n =     23]:	loss: 0.399	acc: 0.826	
+  experiment = HUVEC-05  [n =     27]:	loss: 0.465	acc: 0.963	
+  experiment = HUVEC-06  [n =     28]:	loss: 0.445	acc: 0.857	
+  experiment = HUVEC-07  [n =     28]:	loss: 0.455	acc: 0.857	
+  experiment = HUVEC-08  [n =     24]:	loss: 0.613	acc: 0.708	
+  experiment = HUVEC-09  [n =     18]:	loss: 0.344	acc: 0.944	
+  experiment = HUVEC-10  [n =     20]:	loss: 0.421	acc: 0.750	
+  experiment = HUVEC-11  [n =     21]:	loss: 0.474	acc: 0.952	
+  experiment = HUVEC-12  [n =     23]:	loss: 0.475	acc: 0.870	
+  experiment = HUVEC-13  [n =     19]:	loss: 0.362	acc: 0.895	
+  experiment = HUVEC-14  [n =     26]:	loss: 0.530	acc: 0.885	
+  experiment = HUVEC-15  [n =     25]:	loss: 0.565	acc: 0.800	
+  experiment = HUVEC-16  [n =     24]:	loss: 0.438	acc: 0.833	
+  experiment = RPE-01  [n =     24]:	loss: 0.615	acc: 0.875	
+  experiment = RPE-02  [n =     18]:	loss: 0.789	acc: 0.833	
+  experiment = RPE-03  [n =     16]:	loss: 0.789	acc: 0.750	
+  experiment = RPE-04  [n =     24]:	loss: 0.464	acc: 0.875	
+  experiment = RPE-05  [n =     29]:	loss: 0.465	acc: 0.897	
+  experiment = RPE-06  [n =     31]:	loss: 0.507	acc: 0.903	
+  experiment = RPE-07  [n =     17]:	loss: 1.214	acc: 0.706	
+  experiment = U2OS-01  [n =     14]:	loss: 0.447	acc: 0.929	
+  experiment = U2OS-02  [n =     31]:	loss: 0.565	acc: 0.935	
+  experiment = U2OS-03  [n =     36]:	loss: 0.685	acc: 0.861	
+objective: 0.532
+loss_avg: 0.532
+acc_avg: 0.855
+  experiment = HEPG2-01  [n =     22]:	loss: 0.760	acc: 0.773	
+  experiment = HEPG2-02  [n =     22]:	loss: 0.238	acc: 0.955	
+  experiment = HEPG2-03  [n =     16]:	loss: 0.407	acc: 0.875	
+  experiment = HEPG2-04  [n =     34]:	loss: 0.445	acc: 0.853	
+  experiment = HEPG2-05  [n =     35]:	loss: 0.669	acc: 0.771	
+  experiment = HEPG2-06  [n =     31]:	loss: 0.575	acc: 0.839	
+  experiment = HEPG2-07  [n =     23]:	loss: 0.742	acc: 0.696	
+  experiment = HUVEC-01  [n =     19]:	loss: 0.410	acc: 0.895	
+  experiment = HUVEC-02  [n =     23]:	loss: 0.813	acc: 0.826	
+  experiment = HUVEC-03  [n =     22]:	loss: 0.727	acc: 0.818	
+  experiment = HUVEC-04  [n =     26]:	loss: 0.336	acc: 0.885	
+  experiment = HUVEC-05  [n =     24]:	loss: 0.923	acc: 0.792	
+  experiment = HUVEC-06  [n =     28]:	loss: 0.583	acc: 0.857	
+  experiment = HUVEC-07  [n =     26]:	loss: 0.095	acc: 1.000	
+  experiment = HUVEC-08  [n =     25]:	loss: 0.285	acc: 0.960	
+  experiment = HUVEC-09  [n =     21]:	loss: 0.560	acc: 0.810	
+  experiment = HUVEC-10  [n =     31]:	loss: 0.293	acc: 0.903	
+  experiment = HUVEC-11  [n =     23]:	loss: 0.222	acc: 0.913	
+  experiment = HUVEC-12  [n =     34]:	loss: 0.365	acc: 0.912	
+  experiment = HUVEC-13  [n =     18]:	loss: 0.159	acc: 1.000	
+  experiment = HUVEC-14  [n =     21]:	loss: 0.378	acc: 0.905	
+  experiment = HUVEC-15  [n =     29]:	loss: 0.287	acc: 0.897	
+  experiment = HUVEC-16  [n =     23]:	loss: 0.393	acc: 0.913	
+  experiment = RPE-01  [n =     21]:	loss: 0.489	acc: 0.905	
+  experiment = RPE-02  [n =     26]:	loss: 0.548	acc: 0.846	
+  experiment = RPE-03  [n =     23]:	loss: 0.633	acc: 0.783	
+  experiment = RPE-04  [n =     23]:	loss: 0.901	acc: 0.739	
+  experiment = RPE-05  [n =     23]:	loss: 1.033	acc: 0.739	
+  experiment = RPE-06  [n =     22]:	loss: 0.776	acc: 0.864	
+  experiment = RPE-07  [n =     19]:	loss: 0.726	acc: 0.842	
+  experiment = U2OS-01  [n =     20]:	loss: 0.495	acc: 0.900	
+  experiment = U2OS-02  [n =     19]:	loss: 0.646	acc: 0.789	
+  experiment = U2OS-03  [n =     28]:	loss: 0.777	acc: 0.786	
+objective: 0.552
+loss_avg: 0.552
+acc_avg: 0.859
+  experiment = HEPG2-01  [n =     27]:	loss: 1.121	acc: 0.667	
+  experiment = HEPG2-02  [n =     19]:	loss: 0.702	acc: 0.842	
+  experiment = HEPG2-03  [n =     33]:	loss: 0.645	acc: 0.818	
+  experiment = HEPG2-04  [n =     15]:	loss: 0.091	acc: 1.000	
+  experiment = HEPG2-05  [n =     25]:	loss: 0.785	acc: 0.720	
+  experiment = HEPG2-06  [n =     24]:	loss: 0.419	acc: 0.917	
+  experiment = HEPG2-07  [n =     28]:	loss: 0.606	acc: 0.893	
+  experiment = HUVEC-01  [n =     22]:	loss: 0.368	acc: 0.955	
+  experiment = HUVEC-02  [n =     31]:	loss: 0.441	acc: 0.839	
+  experiment = HUVEC-03  [n =     28]:	loss: 0.825	acc: 0.786	
+  experiment = HUVEC-04  [n =     22]:	loss: 0.500	acc: 0.818	
+  experiment = HUVEC-05  [n =     26]:	loss: 0.346	acc: 0.923	
+  experiment = HUVEC-06  [n =     21]:	loss: 0.886	acc: 0.857	
+  experiment = HUVEC-07  [n =     15]:	loss: 0.448	acc: 0.933	
+  experiment = HUVEC-08  [n =     26]:	loss: 0.631	acc: 0.846	
+  experiment = HUVEC-09  [n =     20]:	loss: 0.259	acc: 0.900	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.191	acc: 0.957	
+  experiment = HUVEC-11  [n =     23]:	loss: 0.324	acc: 0.913	
+  experiment = HUVEC-12  [n =     24]:	loss: 0.548	acc: 0.875	
+  experiment = HUVEC-13  [n =     31]:	loss: 0.318	acc: 0.903	
+  experiment = HUVEC-14  [n =     23]:	loss: 0.273	acc: 1.000	
+  experiment = HUVEC-15  [n =     28]:	loss: 0.722	acc: 0.786	
+  experiment = HUVEC-16  [n =     23]:	loss: 0.108	acc: 1.000	
+  experiment = RPE-01  [n =     27]:	loss: 0.456	acc: 0.852	
+  experiment = RPE-02  [n =     17]:	loss: 0.359	acc: 0.882	
+  experiment = RPE-03  [n =     31]:	loss: 0.664	acc: 0.871	
+  experiment = RPE-04  [n =     16]:	loss: 0.393	acc: 0.938	
+  experiment = RPE-05  [n =     26]:	loss: 0.618	acc: 0.846	
+  experiment = RPE-06  [n =     25]:	loss: 0.595	acc: 0.840	
+  experiment = RPE-07  [n =     25]:	loss: 1.014	acc: 0.720	
+  experiment = U2OS-01  [n =     25]:	loss: 0.664	acc: 0.840	
+  experiment = U2OS-02  [n =     25]:	loss: 0.670	acc: 0.840	
+  experiment = U2OS-03  [n =     26]:	loss: 0.688	acc: 0.769	
+objective: 0.575
+loss_avg: 0.575
+acc_avg: 0.856
+  experiment = HEPG2-01  [n =     34]:	loss: 0.912	acc: 0.794	
+  experiment = HEPG2-02  [n =     31]:	loss: 0.546	acc: 0.871	
+  experiment = HEPG2-03  [n =     28]:	loss: 0.741	acc: 0.821	
+  experiment = HEPG2-04  [n =     26]:	loss: 0.323	acc: 0.923	
+  experiment = HEPG2-05  [n =     20]:	loss: 0.416	acc: 1.000	
+  experiment = HEPG2-06  [n =     22]:	loss: 0.865	acc: 0.727	
+  experiment = HEPG2-07  [n =     16]:	loss: 0.777	acc: 0.750	
+  experiment = HUVEC-01  [n =     22]:	loss: 0.658	acc: 0.818	
+  experiment = HUVEC-02  [n =     20]:	loss: 0.283	acc: 0.900	
+  experiment = HUVEC-03  [n =     29]:	loss: 0.114	acc: 1.000	
+  experiment = HUVEC-04  [n =     27]:	loss: 0.425	acc: 0.815	
+  experiment = HUVEC-05  [n =     20]:	loss: 0.609	acc: 0.900	
+  experiment = HUVEC-06  [n =     30]:	loss: 0.463	acc: 0.900	
+  experiment = HUVEC-07  [n =     27]:	loss: 0.220	acc: 1.000	
+  experiment = HUVEC-08  [n =     23]:	loss: 0.601	acc: 0.870	
+  experiment = HUVEC-09  [n =     24]:	loss: 0.372	acc: 0.875	
+  experiment = HUVEC-10  [n =     27]:	loss: 0.380	acc: 0.889	
+  experiment = HUVEC-11  [n =     21]:	loss: 0.269	acc: 0.952	
+  experiment = HUVEC-12  [n =     26]:	loss: 0.721	acc: 0.808	
+  experiment = HUVEC-13  [n =     29]:	loss: 0.893	acc: 0.724	
+  experiment = HUVEC-14  [n =     21]:	loss: 0.653	acc: 0.857	
+  experiment = HUVEC-15  [n =     22]:	loss: 0.185	acc: 1.000	
+  experiment = HUVEC-16  [n =     28]:	loss: 0.960	acc: 0.679	
+  experiment = RPE-01  [n =     21]:	loss: 0.693	acc: 0.810	
+  experiment = RPE-02  [n =     29]:	loss: 0.529	acc: 0.931	
+  experiment = RPE-03  [n =     18]:	loss: 0.596	acc: 0.833	
+  experiment = RPE-04  [n =     27]:	loss: 0.992	acc: 0.815	
+  experiment = RPE-05  [n =     22]:	loss: 0.369	acc: 0.955	
+  experiment = RPE-06  [n =     24]:	loss: 0.351	acc: 0.958	
+  experiment = RPE-07  [n =     21]:	loss: 0.549	acc: 0.857	
+  experiment = U2OS-01  [n =     22]:	loss: 0.831	acc: 0.682	
+  experiment = U2OS-02  [n =     19]:	loss: 1.064	acc: 0.684	
+  experiment = U2OS-03  [n =     24]:	loss: 0.597	acc: 0.833	
+objective: 0.662
+loss_avg: 0.662
+acc_avg: 0.835
+  experiment = HEPG2-01  [n =     18]:	loss: 1.152	acc: 0.667	
+  experiment = HEPG2-02  [n =     19]:	loss: 0.441	acc: 0.895	
+  experiment = HEPG2-03  [n =     29]:	loss: 0.594	acc: 0.897	
+  experiment = HEPG2-04  [n =     24]:	loss: 1.029	acc: 0.750	
+  experiment = HEPG2-05  [n =     33]:	loss: 0.767	acc: 0.788	
+  experiment = HEPG2-06  [n =     16]:	loss: 0.469	acc: 0.875	
+  experiment = HEPG2-07  [n =     11]:	loss: 0.611	acc: 0.909	
+  experiment = HUVEC-01  [n =     26]:	loss: 0.236	acc: 1.000	
+  experiment = HUVEC-02  [n =     25]:	loss: 0.351	acc: 0.920	
+  experiment = HUVEC-03  [n =     12]:	loss: 0.485	acc: 0.917	
+  experiment = HUVEC-04  [n =     23]:	loss: 0.229	acc: 0.913	
+  experiment = HUVEC-05  [n =     31]:	loss: 0.943	acc: 0.774	
+  experiment = HUVEC-06  [n =     25]:	loss: 0.470	acc: 0.880	
+  experiment = HUVEC-07  [n =     24]:	loss: 0.475	acc: 0.833	
+  experiment = HUVEC-08  [n =     18]:	loss: 0.408	acc: 0.889	
+  experiment = HUVEC-09  [n =     22]:	loss: 0.782	acc: 0.818	
+  experiment = HUVEC-10  [n =     25]:	loss: 0.350	acc: 0.880	
+  experiment = HUVEC-11  [n =     20]:	loss: 0.881	acc: 0.750	
+  experiment = HUVEC-12  [n =     37]:	loss: 0.371	acc: 0.892	
+  experiment = HUVEC-13  [n =     17]:	loss: 0.382	acc: 0.882	
+  experiment = HUVEC-14  [n =     32]:	loss: 0.716	acc: 0.875	
+  experiment = HUVEC-15  [n =     18]:	loss: 1.120	acc: 0.667	
+  experiment = HUVEC-16  [n =     25]:	loss: 0.529	acc: 0.800	
+  experiment = RPE-01  [n =     26]:	loss: 0.588	acc: 0.846	
+  experiment = RPE-02  [n =     23]:	loss: 0.753	acc: 0.783	
+  experiment = RPE-03  [n =     35]:	loss: 1.091	acc: 0.771	
+  experiment = RPE-04  [n =     21]:	loss: 0.819	acc: 0.810	
+  experiment = RPE-05  [n =     30]:	loss: 0.769	acc: 0.767	
+  experiment = RPE-06  [n =     25]:	loss: 0.471	acc: 0.880	
+  experiment = RPE-07  [n =     27]:	loss: 0.614	acc: 0.889	
+  experiment = U2OS-01  [n =     23]:	loss: 0.848	acc: 0.783	
+  experiment = U2OS-02  [n =     33]:	loss: 0.796	acc: 0.818	
+  experiment = U2OS-03  [n =     27]:	loss: 1.029	acc: 0.778	
+objective: 0.608
+loss_avg: 0.608
+acc_avg: 0.851
+  experiment = HEPG2-01  [n =     19]:	loss: 0.489	acc: 0.947	
+  experiment = HEPG2-02  [n =     24]:	loss: 1.050	acc: 0.792	
+  experiment = HEPG2-03  [n =     26]:	loss: 0.625	acc: 0.846	
+  experiment = HEPG2-04  [n =     26]:	loss: 0.437	acc: 0.885	
+  experiment = HEPG2-05  [n =     21]:	loss: 0.912	acc: 0.762	
+  experiment = HEPG2-06  [n =     27]:	loss: 0.537	acc: 0.889	
+  experiment = HEPG2-07  [n =     39]:	loss: 0.577	acc: 0.846	
+  experiment = HUVEC-01  [n =     24]:	loss: 0.476	acc: 0.875	
+  experiment = HUVEC-02  [n =     27]:	loss: 0.286	acc: 0.889	
+  experiment = HUVEC-03  [n =     33]:	loss: 0.729	acc: 0.818	
+  experiment = HUVEC-04  [n =     24]:	loss: 0.500	acc: 0.833	
+  experiment = HUVEC-05  [n =     20]:	loss: 0.809	acc: 0.800	
+  experiment = HUVEC-06  [n =     28]:	loss: 0.269	acc: 0.893	
+  experiment = HUVEC-07  [n =     22]:	loss: 0.161	acc: 0.955	
+  experiment = HUVEC-08  [n =     27]:	loss: 0.691	acc: 0.889	
+  experiment = HUVEC-09  [n =     18]:	loss: 0.446	acc: 0.889	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.277	acc: 0.957	
+  experiment = HUVEC-11  [n =     21]:	loss: 0.680	acc: 0.762	
+  experiment = HUVEC-12  [n =     21]:	loss: 1.059	acc: 0.810	
+  experiment = HUVEC-13  [n =     18]:	loss: 0.225	acc: 0.889	
+  experiment = HUVEC-14  [n =     24]:	loss: 0.462	acc: 0.833	
+  experiment = HUVEC-15  [n =     25]:	loss: 0.381	acc: 0.920	
+  experiment = HUVEC-16  [n =     30]:	loss: 0.759	acc: 0.800	
+  experiment = RPE-01  [n =     29]:	loss: 0.495	acc: 0.897	
+  experiment = RPE-02  [n =     16]:	loss: 0.684	acc: 0.875	
+  experiment = RPE-03  [n =     28]:	loss: 0.608	acc: 0.893	
+  experiment = RPE-04  [n =     14]:	loss: 0.541	acc: 0.929	
+  experiment = RPE-05  [n =     26]:	loss: 0.942	acc: 0.654	
+  experiment = RPE-06  [n =     18]:	loss: 1.020	acc: 0.778	
+  experiment = RPE-07  [n =     28]:	loss: 0.939	acc: 0.750	
+  experiment = U2OS-01  [n =     24]:	loss: 0.652	acc: 0.833	
+  experiment = U2OS-02  [n =     26]:	loss: 0.505	acc: 0.923	
+  experiment = U2OS-03  [n =     24]:	loss: 0.870	acc: 0.833	
+objective: 0.646
+loss_avg: 0.646
+acc_avg: 0.841
+  experiment = HEPG2-01  [n =     21]:	loss: 1.330	acc: 0.667	
+  experiment = HEPG2-02  [n =     23]:	loss: 1.162	acc: 0.696	
+  experiment = HEPG2-03  [n =     14]:	loss: 0.964	acc: 0.714	
+  experiment = HEPG2-04  [n =     27]:	loss: 0.753	acc: 0.815	
+  experiment = HEPG2-05  [n =     26]:	loss: 0.390	acc: 0.962	
+  experiment = HEPG2-06  [n =     16]:	loss: 0.441	acc: 0.812	
+  experiment = HEPG2-07  [n =     23]:	loss: 0.690	acc: 0.783	
+  experiment = HUVEC-01  [n =     26]:	loss: 0.415	acc: 0.885	
+  experiment = HUVEC-02  [n =     29]:	loss: 0.277	acc: 0.931	
+  experiment = HUVEC-03  [n =     26]:	loss: 0.874	acc: 0.769	
+  experiment = HUVEC-04  [n =     17]:	loss: 0.538	acc: 0.882	
+  experiment = HUVEC-05  [n =     29]:	loss: 0.771	acc: 0.828	
+  experiment = HUVEC-06  [n =     16]:	loss: 0.681	acc: 0.875	
+  experiment = HUVEC-07  [n =     28]:	loss: 0.486	acc: 0.893	
+  experiment = HUVEC-08  [n =     21]:	loss: 0.739	acc: 0.810	
+  experiment = HUVEC-09  [n =     37]:	loss: 0.602	acc: 0.865	
+  experiment = HUVEC-10  [n =     16]:	loss: 0.482	acc: 0.875	
+  experiment = HUVEC-11  [n =     29]:	loss: 0.379	acc: 0.897	
+  experiment = HUVEC-12  [n =     22]:	loss: 0.969	acc: 0.727	
+  experiment = HUVEC-13  [n =     28]:	loss: 0.562	acc: 0.821	
+  experiment = HUVEC-14  [n =     22]:	loss: 0.422	acc: 0.955	
+  experiment = HUVEC-15  [n =     24]:	loss: 0.605	acc: 0.833	
+  experiment = HUVEC-16  [n =     29]:	loss: 0.310	acc: 0.966	
+  experiment = RPE-01  [n =     22]:	loss: 0.492	acc: 0.909	
+  experiment = RPE-02  [n =     26]:	loss: 0.753	acc: 0.731	
+  experiment = RPE-03  [n =     35]:	loss: 0.807	acc: 0.800	
+  experiment = RPE-04  [n =     30]:	loss: 0.825	acc: 0.800	
+  experiment = RPE-05  [n =     18]:	loss: 0.375	acc: 0.944	
+  experiment = RPE-06  [n =     29]:	loss: 0.655	acc: 0.828	
+  experiment = RPE-07  [n =     22]:	loss: 0.655	acc: 0.909	
+  experiment = U2OS-01  [n =     24]:	loss: 0.823	acc: 0.792	
+  experiment = U2OS-02  [n =     18]:	loss: 0.739	acc: 0.833	
+  experiment = U2OS-03  [n =     27]:	loss: 0.549	acc: 0.889	
+objective: 0.610
+loss_avg: 0.610
+acc_avg: 0.834
+  experiment = HEPG2-01  [n =     30]:	loss: 0.925	acc: 0.800	
+  experiment = HEPG2-02  [n =     23]:	loss: 0.909	acc: 0.783	
+  experiment = HEPG2-03  [n =     32]:	loss: 0.428	acc: 0.875	
+  experiment = HEPG2-04  [n =     19]:	loss: 0.525	acc: 0.789	
+  experiment = HEPG2-05  [n =     21]:	loss: 0.634	acc: 0.762	
+  experiment = HEPG2-06  [n =     16]:	loss: 0.455	acc: 0.813	
+  experiment = HEPG2-07  [n =     25]:	loss: 0.815	acc: 0.720	
+  experiment = HUVEC-01  [n =     19]:	loss: 0.147	acc: 1.000	
+  experiment = HUVEC-02  [n =     31]:	loss: 0.274	acc: 0.935	
+  experiment = HUVEC-03  [n =     22]:	loss: 0.893	acc: 0.727	
+  experiment = HUVEC-04  [n =     22]:	loss: 0.449	acc: 0.773	
+  experiment = HUVEC-05  [n =     32]:	loss: 0.783	acc: 0.781	
+  experiment = HUVEC-06  [n =     15]:	loss: 0.262	acc: 0.933	
+  experiment = HUVEC-07  [n =     23]:	loss: 0.338	acc: 0.913	
+  experiment = HUVEC-08  [n =     16]:	loss: 0.310	acc: 0.875	
+  experiment = HUVEC-09  [n =     25]:	loss: 0.419	acc: 0.920	
+  experiment = HUVEC-10  [n =     27]:	loss: 0.937	acc: 0.815	
+  experiment = HUVEC-11  [n =     27]:	loss: 0.378	acc: 0.889	
+  experiment = HUVEC-12  [n =     33]:	loss: 0.581	acc: 0.848	
+  experiment = HUVEC-13  [n =     34]:	loss: 0.444	acc: 0.882	
+  experiment = HUVEC-14  [n =     26]:	loss: 0.458	acc: 0.885	
+  experiment = HUVEC-15  [n =     14]:	loss: 0.452	acc: 0.786	
+  experiment = HUVEC-16  [n =     21]:	loss: 0.938	acc: 0.810	
+  experiment = RPE-01  [n =     25]:	loss: 0.525	acc: 0.840	
+  experiment = RPE-02  [n =     24]:	loss: 0.450	acc: 0.875	
+  experiment = RPE-03  [n =     24]:	loss: 0.711	acc: 0.875	
+  experiment = RPE-04  [n =     31]:	loss: 0.626	acc: 0.806	
+  experiment = RPE-05  [n =     31]:	loss: 0.835	acc: 0.839	
+  experiment = RPE-06  [n =     20]:	loss: 0.891	acc: 0.700	
+  experiment = RPE-07  [n =     19]:	loss: 0.426	acc: 0.842	
+  experiment = U2OS-01  [n =     28]:	loss: 0.717	acc: 0.857	
+  experiment = U2OS-02  [n =     20]:	loss: 1.126	acc: 0.700	
+  experiment = U2OS-03  [n =     25]:	loss: 0.762	acc: 0.800	
+objective: 0.664
+loss_avg: 0.664
+acc_avg: 0.833
+  experiment = HEPG2-01  [n =     15]:	loss: 1.251	acc: 0.733	
+  experiment = HEPG2-02  [n =     21]:	loss: 0.965	acc: 0.714	
+  experiment = HEPG2-03  [n =     27]:	loss: 0.731	acc: 0.852	
+  experiment = HEPG2-04  [n =     29]:	loss: 0.790	acc: 0.862	
+  experiment = HEPG2-05  [n =     27]:	loss: 0.902	acc: 0.778	
+  experiment = HEPG2-06  [n =     23]:	loss: 0.605	acc: 0.826	
+  experiment = HEPG2-07  [n =     27]:	loss: 0.389	acc: 0.889	
+  experiment = HUVEC-01  [n =     20]:	loss: 0.801	acc: 0.800	
+  experiment = HUVEC-02  [n =     26]:	loss: 0.746	acc: 0.846	
+  experiment = HUVEC-03  [n =     17]:	loss: 0.195	acc: 1.000	
+  experiment = HUVEC-04  [n =     24]:	loss: 0.521	acc: 0.833	
+  experiment = HUVEC-05  [n =     22]:	loss: 0.833	acc: 0.773	
+  experiment = HUVEC-06  [n =     25]:	loss: 0.600	acc: 0.840	
+  experiment = HUVEC-07  [n =     30]:	loss: 0.533	acc: 0.867	
+  experiment = HUVEC-08  [n =     22]:	loss: 0.301	acc: 0.909	
+  experiment = HUVEC-09  [n =     27]:	loss: 0.652	acc: 0.852	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.411	acc: 0.913	
+  experiment = HUVEC-11  [n =     21]:	loss: 0.284	acc: 0.952	
+  experiment = HUVEC-12  [n =     31]:	loss: 0.926	acc: 0.677	
+  experiment = HUVEC-13  [n =     22]:	loss: 0.395	acc: 0.909	
+  experiment = HUVEC-14  [n =     30]:	loss: 0.629	acc: 0.900	
+  experiment = HUVEC-15  [n =     21]:	loss: 0.613	acc: 0.905	
+  experiment = HUVEC-16  [n =     22]:	loss: 0.569	acc: 0.818	
+  experiment = RPE-01  [n =     25]:	loss: 0.948	acc: 0.760	
+  experiment = RPE-02  [n =     14]:	loss: 0.513	acc: 0.929	
+  experiment = RPE-03  [n =     33]:	loss: 0.644	acc: 0.818	
+  experiment = RPE-04  [n =     22]:	loss: 0.782	acc: 0.818	
+  experiment = RPE-05  [n =     20]:	loss: 0.594	acc: 0.900	
+  experiment = RPE-06  [n =     29]:	loss: 0.914	acc: 0.690	
+  experiment = RPE-07  [n =     16]:	loss: 0.591	acc: 0.875	
+  experiment = U2OS-01  [n =     29]:	loss: 0.569	acc: 0.862	
+  experiment = U2OS-02  [n =     32]:	loss: 0.740	acc: 0.781	
+  experiment = U2OS-03  [n =     28]:	loss: 0.768	acc: 0.750	
+objective: 0.652
+loss_avg: 0.652
+acc_avg: 0.831
+  experiment = HEPG2-01  [n =     15]:	loss: 0.881	acc: 0.800	
+  experiment = HEPG2-02  [n =     22]:	loss: 0.630	acc: 0.773	
+  experiment = HEPG2-03  [n =     13]:	loss: 0.817	acc: 0.769	
+  experiment = HEPG2-04  [n =     29]:	loss: 0.394	acc: 0.931	
+  experiment = HEPG2-05  [n =     28]:	loss: 0.520	acc: 0.857	
+  experiment = HEPG2-06  [n =     28]:	loss: 0.571	acc: 0.857	
+  experiment = HEPG2-07  [n =     29]:	loss: 0.932	acc: 0.828	
+  experiment = HUVEC-01  [n =     17]:	loss: 1.381	acc: 0.588	
+  experiment = HUVEC-02  [n =     21]:	loss: 0.279	acc: 0.952	
+  experiment = HUVEC-03  [n =     15]:	loss: 0.686	acc: 0.800	
+  experiment = HUVEC-04  [n =     23]:	loss: 0.956	acc: 0.783	
+  experiment = HUVEC-05  [n =     27]:	loss: 1.393	acc: 0.667	
+  experiment = HUVEC-06  [n =     33]:	loss: 0.571	acc: 0.848	
+  experiment = HUVEC-07  [n =     23]:	loss: 0.416	acc: 0.826	
+  experiment = HUVEC-08  [n =     24]:	loss: 0.545	acc: 0.833	
+  experiment = HUVEC-09  [n =     31]:	loss: 0.636	acc: 0.839	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.489	acc: 0.913	
+  experiment = HUVEC-11  [n =     30]:	loss: 0.409	acc: 0.933	
+  experiment = HUVEC-12  [n =     29]:	loss: 0.588	acc: 0.793	
+  experiment = HUVEC-13  [n =     29]:	loss: 0.241	acc: 0.862	
+  experiment = HUVEC-14  [n =     26]:	loss: 0.503	acc: 0.846	
+  experiment = HUVEC-15  [n =     20]:	loss: 0.615	acc: 0.850	
+  experiment = HUVEC-16  [n =     21]:	loss: 0.432	acc: 0.905	
+  experiment = RPE-01  [n =     22]:	loss: 0.866	acc: 0.818	
+  experiment = RPE-02  [n =     21]:	loss: 0.855	acc: 0.810	
+  experiment = RPE-03  [n =     25]:	loss: 0.395	acc: 0.880	
+  experiment = RPE-04  [n =     26]:	loss: 0.802	acc: 0.808	
+  experiment = RPE-05  [n =     27]:	loss: 0.561	acc: 0.926	
+  experiment = RPE-06  [n =     28]:	loss: 0.764	acc: 0.786	
+  experiment = RPE-07  [n =     30]:	loss: 0.711	acc: 0.800	
+  experiment = U2OS-01  [n =     20]:	loss: 0.716	acc: 0.800	
+  experiment = U2OS-02  [n =     23]:	loss: 1.047	acc: 0.696	
+  experiment = U2OS-03  [n =     22]:	loss: 0.399	acc: 0.909	
+objective: 0.658
+loss_avg: 0.658
+acc_avg: 0.849
+  experiment = HEPG2-01  [n =     31]:	loss: 0.960	acc: 0.774	
+  experiment = HEPG2-02  [n =     25]:	loss: 0.383	acc: 0.960	
+  experiment = HEPG2-03  [n =     19]:	loss: 0.474	acc: 0.842	
+  experiment = HEPG2-04  [n =     21]:	loss: 1.143	acc: 0.810	
+  experiment = HEPG2-05  [n =     28]:	loss: 1.049	acc: 0.786	
+  experiment = HEPG2-06  [n =     21]:	loss: 0.573	acc: 0.857	
+  experiment = HEPG2-07  [n =     25]:	loss: 0.914	acc: 0.760	
+  experiment = HUVEC-01  [n =     23]:	loss: 0.814	acc: 0.783	
+  experiment = HUVEC-02  [n =     29]:	loss: 0.326	acc: 0.931	
+  experiment = HUVEC-03  [n =     26]:	loss: 0.515	acc: 0.885	
+  experiment = HUVEC-04  [n =     20]:	loss: 0.479	acc: 0.950	
+  experiment = HUVEC-05  [n =     26]:	loss: 0.768	acc: 0.846	
+  experiment = HUVEC-06  [n =     24]:	loss: 0.352	acc: 0.833	
+  experiment = HUVEC-07  [n =     21]:	loss: 0.272	acc: 0.905	
+  experiment = HUVEC-08  [n =     26]:	loss: 0.467	acc: 0.923	
+  experiment = HUVEC-09  [n =     23]:	loss: 0.930	acc: 0.826	
+  experiment = HUVEC-10  [n =     19]:	loss: 0.570	acc: 0.895	
+  experiment = HUVEC-11  [n =     21]:	loss: 0.434	acc: 0.857	
+  experiment = HUVEC-12  [n =     18]:	loss: 0.867	acc: 0.722	
+  experiment = HUVEC-13  [n =     24]:	loss: 0.218	acc: 0.958	
+  experiment = HUVEC-14  [n =     31]:	loss: 0.799	acc: 0.742	
+  experiment = HUVEC-15  [n =     19]:	loss: 0.526	acc: 0.895	
+  experiment = HUVEC-16  [n =     30]:	loss: 0.598	acc: 0.900	
+  experiment = RPE-01  [n =     29]:	loss: 0.433	acc: 0.931	
+  experiment = RPE-02  [n =     19]:	loss: 0.861	acc: 0.789	
+  experiment = RPE-03  [n =     25]:	loss: 0.775	acc: 0.840	
+  experiment = RPE-04  [n =     21]:	loss: 0.393	acc: 0.952	
+  experiment = RPE-05  [n =     18]:	loss: 0.367	acc: 0.889	
+  experiment = RPE-06  [n =     27]:	loss: 0.484	acc: 0.926	
+  experiment = RPE-07  [n =     32]:	loss: 1.134	acc: 0.750	
+  experiment = U2OS-01  [n =     30]:	loss: 0.909	acc: 0.733	
+  experiment = U2OS-02  [n =     22]:	loss: 0.845	acc: 0.773	
+  experiment = U2OS-03  [n =     27]:	loss: 0.710	acc: 0.852	
+objective: 0.655
+loss_avg: 0.655
+acc_avg: 0.819
+  experiment = HEPG2-01  [n =     23]:	loss: 0.906	acc: 0.783	
+  experiment = HEPG2-02  [n =     27]:	loss: 0.477	acc: 0.889	
+  experiment = HEPG2-03  [n =     23]:	loss: 1.284	acc: 0.652	
+  experiment = HEPG2-04  [n =     25]:	loss: 1.077	acc: 0.720	
+  experiment = HEPG2-05  [n =     24]:	loss: 0.718	acc: 0.792	
+  experiment = HEPG2-06  [n =     26]:	loss: 0.710	acc: 0.885	
+  experiment = HEPG2-07  [n =     21]:	loss: 0.708	acc: 0.714	
+  experiment = HUVEC-01  [n =     22]:	loss: 0.275	acc: 0.955	
+  experiment = HUVEC-02  [n =     22]:	loss: 0.437	acc: 0.818	
+  experiment = HUVEC-03  [n =     17]:	loss: 0.373	acc: 0.882	
+  experiment = HUVEC-04  [n =     24]:	loss: 0.557	acc: 0.792	
+  experiment = HUVEC-05  [n =     20]:	loss: 0.870	acc: 0.800	
+  experiment = HUVEC-06  [n =     33]:	loss: 0.365	acc: 0.909	
+  experiment = HUVEC-07  [n =     28]:	loss: 0.480	acc: 0.821	
+  experiment = HUVEC-08  [n =     23]:	loss: 0.597	acc: 0.870	
+  experiment = HUVEC-09  [n =     32]:	loss: 0.412	acc: 0.875	
+  experiment = HUVEC-10  [n =     27]:	loss: 0.598	acc: 0.778	
+  experiment = HUVEC-11  [n =     22]:	loss: 0.442	acc: 0.818	
+  experiment = HUVEC-12  [n =     18]:	loss: 1.002	acc: 0.722	
+  experiment = HUVEC-13  [n =     31]:	loss: 0.479	acc: 0.839	
+  experiment = HUVEC-14  [n =     28]:	loss: 0.399	acc: 0.893	
+  experiment = HUVEC-15  [n =     21]:	loss: 0.264	acc: 0.905	
+  experiment = HUVEC-16  [n =     13]:	loss: 1.213	acc: 0.692	
+  experiment = RPE-01  [n =     20]:	loss: 0.360	acc: 0.950	
+  experiment = RPE-02  [n =     26]:	loss: 0.749	acc: 0.808	
+  experiment = RPE-03  [n =     36]:	loss: 0.642	acc: 0.861	
+  experiment = RPE-04  [n =     25]:	loss: 0.676	acc: 0.840	
+  experiment = RPE-05  [n =     23]:	loss: 0.774	acc: 0.739	
+  experiment = RPE-06  [n =     28]:	loss: 1.134	acc: 0.679	
+  experiment = RPE-07  [n =     30]:	loss: 0.797	acc: 0.833	
+  experiment = U2OS-01  [n =     19]:	loss: 0.592	acc: 0.842	
+  experiment = U2OS-02  [n =     19]:	loss: 1.226	acc: 0.684	
+  experiment = U2OS-03  [n =     24]:	loss: 0.506	acc: 0.833	
+objective: 0.676
+loss_avg: 0.676
+acc_avg: 0.825
+  experiment = HEPG2-01  [n =     30]:	loss: 1.249	acc: 0.633	
+  experiment = HEPG2-02  [n =     24]:	loss: 0.611	acc: 0.792	
+  experiment = HEPG2-03  [n =     19]:	loss: 0.614	acc: 0.842	
+  experiment = HEPG2-04  [n =     20]:	loss: 0.572	acc: 0.800	
+  experiment = HEPG2-05  [n =     17]:	loss: 1.277	acc: 0.588	
+  experiment = HEPG2-06  [n =     23]:	loss: 0.552	acc: 0.957	
+  experiment = HEPG2-07  [n =     30]:	loss: 0.644	acc: 0.833	
+  experiment = HUVEC-01  [n =     29]:	loss: 0.194	acc: 0.966	
+  experiment = HUVEC-02  [n =     22]:	loss: 0.313	acc: 0.955	
+  experiment = HUVEC-03  [n =     24]:	loss: 0.653	acc: 0.792	
+  experiment = HUVEC-04  [n =     28]:	loss: 0.251	acc: 0.893	
+  experiment = HUVEC-05  [n =     28]:	loss: 0.833	acc: 0.786	
+  experiment = HUVEC-06  [n =     28]:	loss: 0.532	acc: 0.893	
+  experiment = HUVEC-07  [n =     30]:	loss: 0.408	acc: 0.867	
+  experiment = HUVEC-08  [n =     18]:	loss: 0.469	acc: 0.833	
+  experiment = HUVEC-09  [n =     21]:	loss: 0.732	acc: 0.810	
+  experiment = HUVEC-10  [n =     23]:	loss: 1.506	acc: 0.522	
+  experiment = HUVEC-11  [n =     34]:	loss: 0.282	acc: 0.941	
+  experiment = HUVEC-12  [n =     21]:	loss: 0.836	acc: 0.762	
+  experiment = HUVEC-13  [n =     22]:	loss: 0.417	acc: 0.864	
+  experiment = HUVEC-14  [n =     16]:	loss: 0.823	acc: 0.812	
+  experiment = HUVEC-15  [n =     24]:	loss: 0.528	acc: 0.875	
+  experiment = HUVEC-16  [n =     23]:	loss: 0.630	acc: 0.870	
+  experiment = RPE-01  [n =     20]:	loss: 0.992	acc: 0.800	
+  experiment = RPE-02  [n =     32]:	loss: 0.641	acc: 0.875	
+  experiment = RPE-03  [n =     16]:	loss: 0.760	acc: 0.688	
+  experiment = RPE-04  [n =     23]:	loss: 0.410	acc: 1.000	
+  experiment = RPE-05  [n =     23]:	loss: 0.892	acc: 0.783	
+  experiment = RPE-06  [n =     23]:	loss: 0.554	acc: 0.913	
+  experiment = RPE-07  [n =     35]:	loss: 0.803	acc: 0.771	
+  experiment = U2OS-01  [n =     20]:	loss: 0.633	acc: 0.850	
+  experiment = U2OS-02  [n =     29]:	loss: 1.246	acc: 0.690	
+  experiment = U2OS-03  [n =     25]:	loss: 0.755	acc: 0.840	
+objective: 0.648
+loss_avg: 0.648
+acc_avg: 0.828
+  experiment = HEPG2-01  [n =     24]:	loss: 0.911	acc: 0.708	
+  experiment = HEPG2-02  [n =     27]:	loss: 0.538	acc: 0.778	
+  experiment = HEPG2-03  [n =     20]:	loss: 0.925	acc: 0.750	
+  experiment = HEPG2-04  [n =     31]:	loss: 1.061	acc: 0.742	
+  experiment = HEPG2-05  [n =     21]:	loss: 0.605	acc: 0.857	
+  experiment = HEPG2-06  [n =     31]:	loss: 0.653	acc: 0.806	
+  experiment = HEPG2-07  [n =     24]:	loss: 0.907	acc: 0.833	
+  experiment = HUVEC-01  [n =     26]:	loss: 0.363	acc: 0.962	
+  experiment = HUVEC-02  [n =     25]:	loss: 0.824	acc: 0.680	
+  experiment = HUVEC-03  [n =     29]:	loss: 0.453	acc: 0.828	
+  experiment = HUVEC-04  [n =     19]:	loss: 0.576	acc: 0.947	
+  experiment = HUVEC-05  [n =     25]:	loss: 0.785	acc: 0.840	
+  experiment = HUVEC-06  [n =     29]:	loss: 0.454	acc: 0.759	
+  experiment = HUVEC-07  [n =     23]:	loss: 0.699	acc: 0.870	
+  experiment = HUVEC-08  [n =     27]:	loss: 0.623	acc: 0.815	
+  experiment = HUVEC-09  [n =     19]:	loss: 0.415	acc: 0.947	
+  experiment = HUVEC-10  [n =     27]:	loss: 0.776	acc: 0.704	
+  experiment = HUVEC-11  [n =     16]:	loss: 0.111	acc: 1.000	
+  experiment = HUVEC-12  [n =     27]:	loss: 0.435	acc: 0.926	
+  experiment = HUVEC-13  [n =     22]:	loss: 0.536	acc: 0.818	
+  experiment = HUVEC-14  [n =     26]:	loss: 0.526	acc: 0.846	
+  experiment = HUVEC-15  [n =     25]:	loss: 0.599	acc: 0.880	
+  experiment = HUVEC-16  [n =     28]:	loss: 0.575	acc: 0.893	
+  experiment = RPE-01  [n =     27]:	loss: 0.901	acc: 0.778	
+  experiment = RPE-02  [n =     25]:	loss: 0.568	acc: 0.840	
+  experiment = RPE-03  [n =     14]:	loss: 0.581	acc: 0.714	
+  experiment = RPE-04  [n =     25]:	loss: 0.632	acc: 0.800	
+  experiment = RPE-05  [n =     19]:	loss: 0.765	acc: 0.895	
+  experiment = RPE-06  [n =     23]:	loss: 0.560	acc: 0.870	
+  experiment = RPE-07  [n =     26]:	loss: 0.909	acc: 0.769	
+  experiment = U2OS-01  [n =     23]:	loss: 0.659	acc: 0.826	
+  experiment = U2OS-02  [n =     22]:	loss: 0.662	acc: 0.909	
+  experiment = U2OS-03  [n =     25]:	loss: 0.574	acc: 0.840	
+objective: 0.719
+loss_avg: 0.719
+acc_avg: 0.796
+  experiment = HEPG2-01  [n =     28]:	loss: 0.796	acc: 0.786	
+  experiment = HEPG2-02  [n =     18]:	loss: 0.685	acc: 0.722	
+  experiment = HEPG2-03  [n =     24]:	loss: 0.556	acc: 0.792	
+  experiment = HEPG2-04  [n =     28]:	loss: 0.843	acc: 0.679	
+  experiment = HEPG2-05  [n =     15]:	loss: 0.584	acc: 0.867	
+  experiment = HEPG2-06  [n =     28]:	loss: 0.505	acc: 0.857	
+  experiment = HEPG2-07  [n =     22]:	loss: 0.479	acc: 0.864	
+  experiment = HUVEC-01  [n =     23]:	loss: 0.446	acc: 0.826	
+  experiment = HUVEC-02  [n =     23]:	loss: 0.800	acc: 0.783	
+  experiment = HUVEC-03  [n =     20]:	loss: 0.502	acc: 0.850	
+  experiment = HUVEC-04  [n =     21]:	loss: 0.355	acc: 0.952	
+  experiment = HUVEC-05  [n =     24]:	loss: 1.144	acc: 0.750	
+  experiment = HUVEC-06  [n =     23]:	loss: 0.560	acc: 0.783	
+  experiment = HUVEC-07  [n =     33]:	loss: 0.497	acc: 0.879	
+  experiment = HUVEC-08  [n =     26]:	loss: 0.432	acc: 0.885	
+  experiment = HUVEC-09  [n =     23]:	loss: 0.536	acc: 0.870	
+  experiment = HUVEC-10  [n =     29]:	loss: 0.480	acc: 0.828	
+  experiment = HUVEC-11  [n =     21]:	loss: 0.491	acc: 0.905	
+  experiment = HUVEC-12  [n =     34]:	loss: 0.853	acc: 0.735	
+  experiment = HUVEC-13  [n =     20]:	loss: 0.569	acc: 0.850	
+  experiment = HUVEC-14  [n =     21]:	loss: 0.421	acc: 0.857	
+  experiment = HUVEC-15  [n =     26]:	loss: 0.409	acc: 0.923	
+  experiment = HUVEC-16  [n =     31]:	loss: 0.761	acc: 0.839	
+  experiment = RPE-01  [n =     23]:	loss: 0.789	acc: 0.826	
+  experiment = RPE-02  [n =     25]:	loss: 0.913	acc: 0.640	
+  experiment = RPE-03  [n =     22]:	loss: 1.120	acc: 0.591	
+  experiment = RPE-04  [n =     25]:	loss: 1.008	acc: 0.720	
+  experiment = RPE-05  [n =     16]:	loss: 0.882	acc: 0.875	
+  experiment = RPE-06  [n =     23]:	loss: 0.747	acc: 0.826	
+  experiment = RPE-07  [n =     33]:	loss: 0.829	acc: 0.758	
+  experiment = U2OS-01  [n =     21]:	loss: 0.972	acc: 0.762	
+  experiment = U2OS-02  [n =     32]:	loss: 1.519	acc: 0.594	
+  experiment = U2OS-03  [n =     19]:	loss: 0.908	acc: 0.737	
+objective: 0.684
+loss_avg: 0.684
+acc_avg: 0.821
+  experiment = HEPG2-01  [n =     23]:	loss: 0.585	acc: 0.870	
+  experiment = HEPG2-02  [n =     24]:	loss: 0.914	acc: 0.708	
+  experiment = HEPG2-03  [n =     22]:	loss: 0.874	acc: 0.773	
+  experiment = HEPG2-04  [n =     28]:	loss: 0.789	acc: 0.750	
+  experiment = HEPG2-05  [n =     27]:	loss: 1.308	acc: 0.704	
+  experiment = HEPG2-06  [n =     22]:	loss: 1.065	acc: 0.727	
+  experiment = HEPG2-07  [n =     22]:	loss: 0.264	acc: 0.909	
+  experiment = HUVEC-01  [n =     24]:	loss: 0.490	acc: 0.833	
+  experiment = HUVEC-02  [n =     25]:	loss: 1.253	acc: 0.720	
+  experiment = HUVEC-03  [n =     18]:	loss: 0.433	acc: 0.889	
+  experiment = HUVEC-04  [n =     30]:	loss: 0.296	acc: 0.933	
+  experiment = HUVEC-05  [n =     17]:	loss: 0.564	acc: 0.882	
+  experiment = HUVEC-06  [n =     26]:	loss: 0.368	acc: 0.923	
+  experiment = HUVEC-07  [n =     23]:	loss: 0.232	acc: 0.957	
+  experiment = HUVEC-08  [n =     32]:	loss: 0.480	acc: 0.844	
+  experiment = HUVEC-09  [n =     22]:	loss: 0.296	acc: 0.909	
+  experiment = HUVEC-10  [n =     19]:	loss: 0.719	acc: 0.789	
+  experiment = HUVEC-11  [n =     26]:	loss: 0.233	acc: 0.923	
+  experiment = HUVEC-12  [n =     25]:	loss: 0.469	acc: 0.880	
+  experiment = HUVEC-13  [n =     29]:	loss: 0.508	acc: 0.828	
+  experiment = HUVEC-14  [n =     19]:	loss: 0.537	acc: 0.895	
+  experiment = HUVEC-15  [n =     24]:	loss: 0.639	acc: 0.833	
+  experiment = HUVEC-16  [n =     21]:	loss: 0.684	acc: 0.857	
+  experiment = RPE-01  [n =     18]:	loss: 0.663	acc: 0.889	
+  experiment = RPE-02  [n =     18]:	loss: 0.614	acc: 0.889	
+  experiment = RPE-03  [n =     23]:	loss: 0.391	acc: 0.826	
+  experiment = RPE-04  [n =     30]:	loss: 0.583	acc: 0.867	
+  experiment = RPE-05  [n =     33]:	loss: 0.940	acc: 0.758	
+  experiment = RPE-06  [n =     23]:	loss: 0.929	acc: 0.783	
+  experiment = RPE-07  [n =     25]:	loss: 1.274	acc: 0.680	
+  experiment = U2OS-01  [n =     30]:	loss: 0.787	acc: 0.733	
+  experiment = U2OS-02  [n =     24]:	loss: 0.832	acc: 0.833	
+  experiment = U2OS-03  [n =     28]:	loss: 1.308	acc: 0.643	
+objective: 0.728
+loss_avg: 0.728
+acc_avg: 0.814
+  experiment = HEPG2-01  [n =     25]:	loss: 0.969	acc: 0.880	
+  experiment = HEPG2-02  [n =     27]:	loss: 1.287	acc: 0.593	
+  experiment = HEPG2-03  [n =     24]:	loss: 0.542	acc: 0.875	
+  experiment = HEPG2-04  [n =     24]:	loss: 1.156	acc: 0.750	
+  experiment = HEPG2-05  [n =     22]:	loss: 0.885	acc: 0.773	
+  experiment = HEPG2-06  [n =     20]:	loss: 0.641	acc: 0.850	
+  experiment = HEPG2-07  [n =     22]:	loss: 0.968	acc: 0.727	
+  experiment = HUVEC-01  [n =     32]:	loss: 0.401	acc: 0.875	
+  experiment = HUVEC-02  [n =     23]:	loss: 0.346	acc: 0.957	
+  experiment = HUVEC-03  [n =     23]:	loss: 0.590	acc: 0.739	
+  experiment = HUVEC-04  [n =     29]:	loss: 0.860	acc: 0.621	
+  experiment = HUVEC-05  [n =     27]:	loss: 1.029	acc: 0.741	
+  experiment = HUVEC-06  [n =     16]:	loss: 0.718	acc: 0.812	
+  experiment = HUVEC-07  [n =     28]:	loss: 0.499	acc: 0.929	
+  experiment = HUVEC-08  [n =     31]:	loss: 0.725	acc: 0.774	
+  experiment = HUVEC-09  [n =     22]:	loss: 0.875	acc: 0.818	
+  experiment = HUVEC-10  [n =     17]:	loss: 0.169	acc: 0.941	
+  experiment = HUVEC-11  [n =     24]:	loss: 0.233	acc: 0.958	
+  experiment = HUVEC-12  [n =     14]:	loss: 0.577	acc: 0.786	
+  experiment = HUVEC-13  [n =     25]:	loss: 0.408	acc: 0.880	
+  experiment = HUVEC-14  [n =     25]:	loss: 0.338	acc: 0.920	
+  experiment = HUVEC-15  [n =     25]:	loss: 0.398	acc: 0.880	
+  experiment = HUVEC-16  [n =     22]:	loss: 0.572	acc: 0.909	
+  experiment = RPE-01  [n =     24]:	loss: 0.714	acc: 0.833	
+  experiment = RPE-02  [n =     23]:	loss: 0.725	acc: 0.826	
+  experiment = RPE-03  [n =     25]:	loss: 0.995	acc: 0.760	
+  experiment = RPE-04  [n =     23]:	loss: 0.885	acc: 0.783	
+  experiment = RPE-05  [n =     23]:	loss: 0.998	acc: 0.696	
+  experiment = RPE-06  [n =     30]:	loss: 1.195	acc: 0.700	
+  experiment = RPE-07  [n =     27]:	loss: 0.905	acc: 0.815	
+  experiment = U2OS-01  [n =     29]:	loss: 0.602	acc: 0.862	
+  experiment = U2OS-02  [n =     28]:	loss: 0.840	acc: 0.786	
+  experiment = U2OS-03  [n =     21]:	loss: 0.645	acc: 0.905	
+objective: 0.747
+loss_avg: 0.747
+acc_avg: 0.795
+  experiment = HEPG2-01  [n =     30]:	loss: 1.151	acc: 0.733	
+  experiment = HEPG2-02  [n =     37]:	loss: 0.960	acc: 0.703	
+  experiment = HEPG2-03  [n =     17]:	loss: 0.415	acc: 0.941	
+  experiment = HEPG2-04  [n =     24]:	loss: 0.988	acc: 0.625	
+  experiment = HEPG2-05  [n =     29]:	loss: 0.800	acc: 0.793	
+  experiment = HEPG2-06  [n =     28]:	loss: 0.737	acc: 0.786	
+  experiment = HEPG2-07  [n =     26]:	loss: 0.706	acc: 0.846	
+  experiment = HUVEC-01  [n =     18]:	loss: 0.311	acc: 0.889	
+  experiment = HUVEC-02  [n =     18]:	loss: 0.425	acc: 0.889	
+  experiment = HUVEC-03  [n =     25]:	loss: 0.881	acc: 0.760	
+  experiment = HUVEC-04  [n =     17]:	loss: 0.290	acc: 0.941	
+  experiment = HUVEC-05  [n =     22]:	loss: 0.744	acc: 0.818	
+  experiment = HUVEC-06  [n =     29]:	loss: 0.382	acc: 0.862	
+  experiment = HUVEC-07  [n =     23]:	loss: 0.515	acc: 0.913	
+  experiment = HUVEC-08  [n =     35]:	loss: 0.705	acc: 0.771	
+  experiment = HUVEC-09  [n =     23]:	loss: 1.186	acc: 0.696	
+  experiment = HUVEC-10  [n =     30]:	loss: 0.517	acc: 0.833	
+  experiment = HUVEC-11  [n =     17]:	loss: 0.503	acc: 0.882	
+  experiment = HUVEC-12  [n =     26]:	loss: 0.561	acc: 0.808	
+  experiment = HUVEC-13  [n =     34]:	loss: 0.561	acc: 0.794	
+  experiment = HUVEC-14  [n =     22]:	loss: 0.554	acc: 0.818	
+  experiment = HUVEC-15  [n =     19]:	loss: 0.349	acc: 0.947	
+  experiment = HUVEC-16  [n =     26]:	loss: 0.664	acc: 0.808	
+  experiment = RPE-01  [n =     20]:	loss: 0.950	acc: 0.800	
+  experiment = RPE-02  [n =     19]:	loss: 0.280	acc: 1.000	
+  experiment = RPE-03  [n =     22]:	loss: 1.007	acc: 0.591	
+  experiment = RPE-04  [n =     25]:	loss: 1.093	acc: 0.760	
+  experiment = RPE-05  [n =     18]:	loss: 1.011	acc: 0.667	
+  experiment = RPE-06  [n =     23]:	loss: 0.969	acc: 0.739	
+  experiment = RPE-07  [n =     20]:	loss: 0.740	acc: 0.800	
+  experiment = U2OS-01  [n =     24]:	loss: 0.923	acc: 0.708	
+  experiment = U2OS-02  [n =     33]:	loss: 1.185	acc: 0.727	
+  experiment = U2OS-03  [n =     21]:	loss: 0.885	acc: 0.857	
+objective: 0.802
+loss_avg: 0.802
+acc_avg: 0.765
+  experiment = HEPG2-01  [n =     21]:	loss: 1.694	acc: 0.571	
+  experiment = HEPG2-02  [n =     35]:	loss: 1.067	acc: 0.771	
+  experiment = HEPG2-03  [n =     34]:	loss: 0.887	acc: 0.735	
+  experiment = HEPG2-04  [n =     18]:	loss: 0.935	acc: 0.722	
+  experiment = HEPG2-05  [n =     19]:	loss: 0.644	acc: 0.895	
+  experiment = HEPG2-06  [n =     25]:	loss: 0.739	acc: 0.800	
+  experiment = HEPG2-07  [n =     18]:	loss: 0.631	acc: 0.889	
+  experiment = HUVEC-01  [n =     16]:	loss: 0.259	acc: 0.875	
+  experiment = HUVEC-02  [n =     26]:	loss: 0.784	acc: 0.731	
+  experiment = HUVEC-03  [n =     33]:	loss: 0.627	acc: 0.788	
+  experiment = HUVEC-04  [n =     31]:	loss: 0.430	acc: 0.871	
+  experiment = HUVEC-05  [n =     19]:	loss: 1.003	acc: 0.737	
+  experiment = HUVEC-06  [n =     24]:	loss: 0.608	acc: 0.750	
+  experiment = HUVEC-07  [n =     26]:	loss: 0.245	acc: 0.962	
+  experiment = HUVEC-08  [n =     24]:	loss: 0.852	acc: 0.792	
+  experiment = HUVEC-09  [n =     18]:	loss: 0.137	acc: 1.000	
+  experiment = HUVEC-10  [n =     31]:	loss: 0.556	acc: 0.774	
+  experiment = HUVEC-11  [n =     24]:	loss: 0.584	acc: 0.833	
+  experiment = HUVEC-12  [n =     20]:	loss: 1.029	acc: 0.800	
+  experiment = HUVEC-13  [n =     27]:	loss: 0.314	acc: 0.889	
+  experiment = HUVEC-14  [n =     22]:	loss: 0.511	acc: 0.818	
+  experiment = HUVEC-15  [n =     16]:	loss: 0.509	acc: 0.812	
+  experiment = HUVEC-16  [n =     24]:	loss: 0.864	acc: 0.542	
+  experiment = RPE-01  [n =     30]:	loss: 0.934	acc: 0.700	
+  experiment = RPE-02  [n =     26]:	loss: 0.517	acc: 0.923	
+  experiment = RPE-03  [n =     21]:	loss: 0.949	acc: 0.714	
+  experiment = RPE-04  [n =     26]:	loss: 0.494	acc: 0.846	
+  experiment = RPE-05  [n =     17]:	loss: 0.931	acc: 0.765	
+  experiment = RPE-06  [n =     32]:	loss: 1.257	acc: 0.656	
+  experiment = RPE-07  [n =     25]:	loss: 1.194	acc: 0.600	
+  experiment = U2OS-01  [n =     24]:	loss: 1.264	acc: 0.417	
+  experiment = U2OS-02  [n =     17]:	loss: 2.073	acc: 0.529	
+  experiment = U2OS-03  [n =     31]:	loss: 1.022	acc: 0.774	
+objective: 0.697
+loss_avg: 0.697
+acc_avg: 0.832
+  experiment = HEPG2-01  [n =     23]:	loss: 1.397	acc: 0.565	
+  experiment = HEPG2-02  [n =     25]:	loss: 0.569	acc: 0.880	
+  experiment = HEPG2-03  [n =     22]:	loss: 0.936	acc: 0.727	
+  experiment = HEPG2-04  [n =     24]:	loss: 0.771	acc: 0.750	
+  experiment = HEPG2-05  [n =     24]:	loss: 0.857	acc: 0.792	
+  experiment = HEPG2-06  [n =     18]:	loss: 0.296	acc: 0.889	
+  experiment = HEPG2-07  [n =     13]:	loss: 1.293	acc: 0.692	
+  experiment = HUVEC-01  [n =     24]:	loss: 0.307	acc: 0.958	
+  experiment = HUVEC-02  [n =     25]:	loss: 0.607	acc: 0.920	
+  experiment = HUVEC-03  [n =     24]:	loss: 0.827	acc: 0.833	
+  experiment = HUVEC-04  [n =     23]:	loss: 0.486	acc: 0.870	
+  experiment = HUVEC-05  [n =     22]:	loss: 0.604	acc: 0.909	
+  experiment = HUVEC-06  [n =     18]:	loss: 0.942	acc: 0.778	
+  experiment = HUVEC-07  [n =     22]:	loss: 0.596	acc: 0.909	
+  experiment = HUVEC-08  [n =     38]:	loss: 0.512	acc: 0.842	
+  experiment = HUVEC-09  [n =     26]:	loss: 0.619	acc: 0.808	
+  experiment = HUVEC-10  [n =     19]:	loss: 0.683	acc: 0.789	
+  experiment = HUVEC-11  [n =     22]:	loss: 0.824	acc: 0.727	
+  experiment = HUVEC-12  [n =     28]:	loss: 0.657	acc: 0.786	
+  experiment = HUVEC-13  [n =     26]:	loss: 0.420	acc: 0.923	
+  experiment = HUVEC-14  [n =     27]:	loss: 0.512	acc: 0.852	
+  experiment = HUVEC-15  [n =     26]:	loss: 0.431	acc: 0.885	
+  experiment = HUVEC-16  [n =     22]:	loss: 0.234	acc: 1.000	
+  experiment = RPE-01  [n =     20]:	loss: 0.486	acc: 0.950	
+  experiment = RPE-02  [n =     26]:	loss: 0.411	acc: 0.885	
+  experiment = RPE-03  [n =     17]:	loss: 1.020	acc: 0.765	
+  experiment = RPE-04  [n =     30]:	loss: 0.615	acc: 0.833	
+  experiment = RPE-05  [n =     21]:	loss: 0.641	acc: 0.810	
+  experiment = RPE-06  [n =     30]:	loss: 0.787	acc: 0.800	
+  experiment = RPE-07  [n =     25]:	loss: 1.259	acc: 0.760	
+  experiment = U2OS-01  [n =     27]:	loss: 1.046	acc: 0.852	
+  experiment = U2OS-02  [n =     30]:	loss: 1.015	acc: 0.733	
+  experiment = U2OS-03  [n =     33]:	loss: 0.690	acc: 0.909	
+objective: 0.827
+loss_avg: 0.827
+acc_avg: 0.775
+  experiment = HEPG2-01  [n =     20]:	loss: 1.323	acc: 0.600	
+  experiment = HEPG2-02  [n =     17]:	loss: 0.791	acc: 0.765	
+  experiment = HEPG2-03  [n =     31]:	loss: 0.731	acc: 0.903	
+  experiment = HEPG2-04  [n =     16]:	loss: 1.084	acc: 0.562	
+  experiment = HEPG2-05  [n =     20]:	loss: 1.001	acc: 0.800	
+  experiment = HEPG2-06  [n =     25]:	loss: 0.775	acc: 0.800	
+  experiment = HEPG2-07  [n =     38]:	loss: 0.757	acc: 0.816	
+  experiment = HUVEC-01  [n =     21]:	loss: 0.288	acc: 1.000	
+  experiment = HUVEC-02  [n =     30]:	loss: 0.628	acc: 0.800	
+  experiment = HUVEC-03  [n =     24]:	loss: 0.559	acc: 0.833	
+  experiment = HUVEC-04  [n =     25]:	loss: 0.357	acc: 0.920	
+  experiment = HUVEC-05  [n =     25]:	loss: 0.844	acc: 0.720	
+  experiment = HUVEC-06  [n =     27]:	loss: 0.588	acc: 0.852	
+  experiment = HUVEC-07  [n =     26]:	loss: 0.739	acc: 0.692	
+  experiment = HUVEC-08  [n =     26]:	loss: 0.865	acc: 0.769	
+  experiment = HUVEC-09  [n =     24]:	loss: 0.619	acc: 0.833	
+  experiment = HUVEC-10  [n =     38]:	loss: 0.668	acc: 0.816	
+  experiment = HUVEC-11  [n =     23]:	loss: 0.758	acc: 0.696	
+  experiment = HUVEC-12  [n =     19]:	loss: 0.824	acc: 0.789	
+  experiment = HUVEC-13  [n =     26]:	loss: 0.471	acc: 0.808	
+  experiment = HUVEC-14  [n =     23]:	loss: 0.513	acc: 0.913	
+  experiment = HUVEC-15  [n =     27]:	loss: 0.909	acc: 0.741	
+  experiment = HUVEC-16  [n =     31]:	loss: 1.088	acc: 0.677	
+  experiment = RPE-01  [n =     21]:	loss: 1.072	acc: 0.571	
+  experiment = RPE-02  [n =     20]:	loss: 1.122	acc: 0.750	
+  experiment = RPE-03  [n =     23]:	loss: 1.277	acc: 0.696	
+  experiment = RPE-04  [n =     35]:	loss: 0.741	acc: 0.743	
+  experiment = RPE-05  [n =     19]:	loss: 1.412	acc: 0.632	
+  experiment = RPE-06  [n =     19]:	loss: 0.975	acc: 0.737	
+  experiment = RPE-07  [n =     19]:	loss: 0.910	acc: 0.789	
+  experiment = U2OS-01  [n =     17]:	loss: 0.866	acc: 0.824	
+  experiment = U2OS-02  [n =     24]:	loss: 1.583	acc: 0.750	
+  experiment = U2OS-03  [n =     21]:	loss: 0.788	acc: 0.810	
+objective: 0.807
+loss_avg: 0.807
+acc_avg: 0.801
+  experiment = HEPG2-01  [n =     24]:	loss: 1.578	acc: 0.625	
+  experiment = HEPG2-02  [n =     23]:	loss: 1.317	acc: 0.696	
+  experiment = HEPG2-03  [n =     29]:	loss: 0.954	acc: 0.793	
+  experiment = HEPG2-04  [n =     19]:	loss: 1.172	acc: 0.632	
+  experiment = HEPG2-05  [n =     32]:	loss: 0.839	acc: 0.812	
+  experiment = HEPG2-06  [n =     26]:	loss: 0.956	acc: 0.808	
+  experiment = HEPG2-07  [n =     25]:	loss: 0.641	acc: 0.840	
+  experiment = HUVEC-01  [n =     21]:	loss: 0.496	acc: 0.857	
+  experiment = HUVEC-02  [n =     19]:	loss: 0.789	acc: 0.789	
+  experiment = HUVEC-03  [n =     33]:	loss: 1.077	acc: 0.727	
+  experiment = HUVEC-04  [n =     21]:	loss: 0.231	acc: 1.000	
+  experiment = HUVEC-05  [n =     24]:	loss: 1.445	acc: 0.625	
+  experiment = HUVEC-06  [n =     26]:	loss: 0.823	acc: 0.769	
+  experiment = HUVEC-07  [n =     25]:	loss: 0.433	acc: 0.920	
+  experiment = HUVEC-08  [n =     26]:	loss: 0.607	acc: 0.846	
+  experiment = HUVEC-09  [n =     23]:	loss: 0.430	acc: 0.913	
+  experiment = HUVEC-10  [n =     20]:	loss: 0.115	acc: 1.000	
+  experiment = HUVEC-11  [n =     30]:	loss: 0.761	acc: 0.800	
+  experiment = HUVEC-12  [n =     21]:	loss: 0.579	acc: 0.905	
+  experiment = HUVEC-13  [n =     24]:	loss: 0.379	acc: 0.917	
+  experiment = HUVEC-14  [n =     19]:	loss: 0.708	acc: 0.842	
+  experiment = HUVEC-15  [n =     21]:	loss: 0.427	acc: 0.810	
+  experiment = HUVEC-16  [n =     29]:	loss: 0.890	acc: 0.793	
+  experiment = RPE-01  [n =     27]:	loss: 0.652	acc: 0.778	
+  experiment = RPE-02  [n =     26]:	loss: 1.178	acc: 0.769	
+  experiment = RPE-03  [n =     20]:	loss: 1.207	acc: 0.700	
+  experiment = RPE-04  [n =     31]:	loss: 0.577	acc: 0.871	
+  experiment = RPE-05  [n =     24]:	loss: 0.979	acc: 0.667	
+  experiment = RPE-06  [n =     22]:	loss: 0.625	acc: 0.864	
+  experiment = RPE-07  [n =     26]:	loss: 0.595	acc: 0.846	
+  experiment = U2OS-01  [n =     27]:	loss: 0.860	acc: 0.815	
+  experiment = U2OS-02  [n =     15]:	loss: 1.314	acc: 0.600	
+  experiment = U2OS-03  [n =     22]:	loss: 0.954	acc: 0.773	
+objective: 0.837
+loss_avg: 0.837
+acc_avg: 0.770
+  experiment = HEPG2-01  [n =     23]:	loss: 1.052	acc: 0.696	
+  experiment = HEPG2-02  [n =     26]:	loss: 1.295	acc: 0.654	
+  experiment = HEPG2-03  [n =     39]:	loss: 1.253	acc: 0.667	
+  experiment = HEPG2-04  [n =     26]:	loss: 0.820	acc: 0.769	
+  experiment = HEPG2-05  [n =     32]:	loss: 0.713	acc: 0.750	
+  experiment = HEPG2-06  [n =     23]:	loss: 0.642	acc: 0.913	
+  experiment = HEPG2-07  [n =     26]:	loss: 0.726	acc: 0.808	
+  experiment = HUVEC-01  [n =     25]:	loss: 0.709	acc: 0.800	
+  experiment = HUVEC-02  [n =     23]:	loss: 0.370	acc: 0.957	
+  experiment = HUVEC-03  [n =     39]:	loss: 0.706	acc: 0.795	
+  experiment = HUVEC-04  [n =     36]:	loss: 0.766	acc: 0.750	
+  experiment = HUVEC-05  [n =     20]:	loss: 1.147	acc: 0.700	
+  experiment = HUVEC-06  [n =     16]:	loss: 0.608	acc: 0.875	
+  experiment = HUVEC-07  [n =     17]:	loss: 0.476	acc: 0.882	
+  experiment = HUVEC-08  [n =     19]:	loss: 1.036	acc: 0.842	
+  experiment = HUVEC-09  [n =     29]:	loss: 0.621	acc: 0.793	
+  experiment = HUVEC-10  [n =     30]:	loss: 0.422	acc: 0.867	
+  experiment = HUVEC-11  [n =     16]:	loss: 0.518	acc: 0.812	
+  experiment = HUVEC-12  [n =     17]:	loss: 0.836	acc: 0.706	
+  experiment = HUVEC-13  [n =     23]:	loss: 0.496	acc: 0.783	
+  experiment = HUVEC-14  [n =     24]:	loss: 0.526	acc: 0.833	
+  experiment = HUVEC-15  [n =     26]:	loss: 0.833	acc: 0.769	
+  experiment = HUVEC-16  [n =     27]:	loss: 0.347	acc: 0.889	
+  experiment = RPE-01  [n =     19]:	loss: 0.936	acc: 0.737	
+  experiment = RPE-02  [n =     19]:	loss: 0.965	acc: 0.789	
+  experiment = RPE-03  [n =     23]:	loss: 0.844	acc: 0.826	
+  experiment = RPE-04  [n =     32]:	loss: 1.078	acc: 0.719	
+  experiment = RPE-05  [n =     26]:	loss: 0.864	acc: 0.731	
+  experiment = RPE-06  [n =     20]:	loss: 1.128	acc: 0.700	
+  experiment = RPE-07  [n =     20]:	loss: 1.611	acc: 0.500	
+  experiment = U2OS-01  [n =     15]:	loss: 1.114	acc: 0.733	
+  experiment = U2OS-02  [n =     18]:	loss: 1.176	acc: 0.556	
+  experiment = U2OS-03  [n =     26]:	loss: 1.140	acc: 0.808	
+objective: 0.848
+loss_avg: 0.848
+acc_avg: 0.776
+  experiment = HEPG2-01  [n =     24]:	loss: 0.972	acc: 0.708	
+  experiment = HEPG2-02  [n =     27]:	loss: 0.917	acc: 0.778	
+  experiment = HEPG2-03  [n =     25]:	loss: 1.198	acc: 0.640	
+  experiment = HEPG2-04  [n =     21]:	loss: 0.427	acc: 0.905	
+  experiment = HEPG2-05  [n =     23]:	loss: 1.626	acc: 0.609	
+  experiment = HEPG2-06  [n =     24]:	loss: 0.952	acc: 0.750	
+  experiment = HEPG2-07  [n =     25]:	loss: 0.983	acc: 0.800	
+  experiment = HUVEC-01  [n =     26]:	loss: 0.676	acc: 0.885	
+  experiment = HUVEC-02  [n =     24]:	loss: 0.273	acc: 0.917	
+  experiment = HUVEC-03  [n =     23]:	loss: 0.396	acc: 0.913	
+  experiment = HUVEC-04  [n =     29]:	loss: 0.261	acc: 0.966	
+  experiment = HUVEC-05  [n =     21]:	loss: 1.053	acc: 0.810	
+  experiment = HUVEC-06  [n =     19]:	loss: 0.638	acc: 0.842	
+  experiment = HUVEC-07  [n =     27]:	loss: 0.826	acc: 0.741	
+  experiment = HUVEC-08  [n =     25]:	loss: 0.296	acc: 0.920	
+  experiment = HUVEC-09  [n =     26]:	loss: 0.654	acc: 0.731	
+  experiment = HUVEC-10  [n =     20]:	loss: 0.598	acc: 0.850	
+  experiment = HUVEC-11  [n =     21]:	loss: 0.893	acc: 0.762	
+  experiment = HUVEC-12  [n =     24]:	loss: 0.509	acc: 0.875	
+  experiment = HUVEC-13  [n =     28]:	loss: 0.836	acc: 0.750	
+  experiment = HUVEC-14  [n =     21]:	loss: 0.611	acc: 0.857	
+  experiment = HUVEC-15  [n =     27]:	loss: 1.306	acc: 0.667	
+  experiment = HUVEC-16  [n =     35]:	loss: 1.211	acc: 0.629	
+  experiment = RPE-01  [n =     26]:	loss: 0.353	acc: 0.885	
+  experiment = RPE-02  [n =     28]:	loss: 0.758	acc: 0.821	
+  experiment = RPE-03  [n =     33]:	loss: 0.972	acc: 0.727	
+  experiment = RPE-04  [n =     14]:	loss: 1.333	acc: 0.643	
+  experiment = RPE-05  [n =     21]:	loss: 1.476	acc: 0.667	
+  experiment = RPE-06  [n =     20]:	loss: 1.014	acc: 0.750	
+  experiment = RPE-07  [n =     23]:	loss: 0.721	acc: 0.696	
+  experiment = U2OS-01  [n =     24]:	loss: 0.835	acc: 0.750	
+  experiment = U2OS-02  [n =     25]:	loss: 1.685	acc: 0.520	
+  experiment = U2OS-03  [n =     21]:	loss: 0.820	acc: 0.905	
+objective: 0.802
+loss_avg: 0.802
+acc_avg: 0.786
+  experiment = HEPG2-01  [n =     21]:	loss: 0.866	acc: 0.762	
+  experiment = HEPG2-02  [n =     21]:	loss: 1.387	acc: 0.667	
+  experiment = HEPG2-03  [n =     24]:	loss: 0.554	acc: 0.792	
+  experiment = HEPG2-04  [n =     25]:	loss: 1.184	acc: 0.720	
+  experiment = HEPG2-05  [n =     22]:	loss: 1.460	acc: 0.591	
+  experiment = HEPG2-06  [n =     18]:	loss: 0.600	acc: 0.833	
+  experiment = HEPG2-07  [n =     35]:	loss: 0.902	acc: 0.771	
+  experiment = HUVEC-01  [n =     22]:	loss: 0.767	acc: 0.818	
+  experiment = HUVEC-02  [n =     29]:	loss: 0.690	acc: 0.793	
+  experiment = HUVEC-03  [n =     21]:	loss: 1.177	acc: 0.619	
+  experiment = HUVEC-04  [n =     21]:	loss: 0.464	acc: 0.857	
+  experiment = HUVEC-05  [n =     21]:	loss: 0.919	acc: 0.810	
+  experiment = HUVEC-06  [n =     24]:	loss: 0.600	acc: 0.833	
+  experiment = HUVEC-07  [n =     28]:	loss: 0.691	acc: 0.786	
+  experiment = HUVEC-08  [n =     27]:	loss: 0.360	acc: 0.889	
+  experiment = HUVEC-09  [n =     33]:	loss: 0.915	acc: 0.727	
+  experiment = HUVEC-10  [n =     23]:	loss: 0.701	acc: 0.739	
+  experiment = HUVEC-11  [n =     23]:	loss: 0.528	acc: 0.870	
+  experiment = HUVEC-12  [n =     29]:	loss: 0.517	acc: 0.897	
+  experiment = HUVEC-13  [n =     20]:	loss: 0.376	acc: 0.900	
+  experiment = HUVEC-14  [n =     20]:	loss: 0.349	acc: 0.900	
+  experiment = HUVEC-15  [n =     25]:	loss: 0.635	acc: 0.760	
+  experiment = HUVEC-16  [n =     24]:	loss: 0.515	acc: 0.875	
+  experiment = RPE-01  [n =     23]:	loss: 0.869	acc: 0.826	
+  experiment = RPE-02  [n =     26]:	loss: 0.414	acc: 0.885	
+  experiment = RPE-03  [n =     17]:	loss: 1.666	acc: 0.529	
+  experiment = RPE-04  [n =     31]:	loss: 0.945	acc: 0.774	
+  experiment = RPE-05  [n =     28]:	loss: 1.178	acc: 0.750	
+  experiment = RPE-06  [n =     24]:	loss: 0.930	acc: 0.708	
+  experiment = RPE-07  [n =     25]:	loss: 0.715	acc: 0.800	
+  experiment = U2OS-01  [n =     24]:	loss: 0.959	acc: 0.833	
+  experiment = U2OS-02  [n =     27]:	loss: 1.018	acc: 0.741	
+  experiment = U2OS-03  [n =     19]:	loss: 0.779	acc: 0.842	
+objective: 0.829
+loss_avg: 0.829
+acc_avg: 0.784
+  experiment = HEPG2-01  [n =     22]:	loss: 0.856	acc: 0.727	
+  experiment = HEPG2-02  [n =     11]:	loss: 0.720	acc: 0.818	
+  experiment = HEPG2-03  [n =     13]:	loss: 0.381	acc: 0.923	
+  experiment = HEPG2-04  [n =     27]:	loss: 1.028	acc: 0.667	
+  experiment = HEPG2-05  [n =     17]:	loss: 0.699	acc: 0.941	
+  experiment = HEPG2-06  [n =     24]:	loss: 1.208	acc: 0.792	
+  experiment = HEPG2-07  [n =     22]:	loss: 0.707	acc: 0.818	
+  experiment = HUVEC-01  [n =     25]:	loss: 0.234	acc: 0.960	
+  experiment = HUVEC-02  [n =     20]:	loss: 0.208	acc: 0.950	
+  experiment = HUVEC-03  [n =     16]:	loss: 1.009	acc: 0.812	
+  experiment = HUVEC-04  [n =     11]:	loss: 0.743	acc: 0.727	
+  experiment = HUVEC-05  [n =     20]:	loss: 0.962	acc: 0.750	
+  experiment = HUVEC-06  [n =     14]:	loss: 0.522	acc: 0.929	
+  experiment = HUVEC-07  [n =     14]:	loss: 0.807	acc: 0.714	
+  experiment = HUVEC-08  [n =     13]:	loss: 0.682	acc: 0.769	
+  experiment = HUVEC-09  [n =     17]:	loss: 0.602	acc: 0.882	
+  experiment = HUVEC-10  [n =     17]:	loss: 1.119	acc: 0.824	
+  experiment = HUVEC-11  [n =     22]:	loss: 0.331	acc: 0.909	
+  experiment = HUVEC-12  [n =     19]:	loss: 0.573	acc: 0.842	
+  experiment = HUVEC-13  [n =     15]:	loss: 0.103	acc: 1.000	
+  experiment = HUVEC-14  [n =     21]:	loss: 0.726	acc: 0.762	
+  experiment = HUVEC-15  [n =     22]:	loss: 0.446	acc: 0.909	
+  experiment = HUVEC-16  [n =     18]:	loss: 1.140	acc: 0.611	
+  experiment = RPE-01  [n =     15]:	loss: 1.270	acc: 0.600	
+  experiment = RPE-02  [n =     20]:	loss: 1.413	acc: 0.550	
+  experiment = RPE-03  [n =     21]:	loss: 1.806	acc: 0.524	
+  experiment = RPE-04  [n =     24]:	loss: 1.172	acc: 0.667	
+  experiment = RPE-05  [n =     26]:	loss: 0.881	acc: 0.731	
+  experiment = RPE-06  [n =     16]:	loss: 0.660	acc: 0.875	
+  experiment = RPE-07  [n =     22]:	loss: 0.597	acc: 0.864	
+  experiment = U2OS-01  [n =     15]:	loss: 1.358	acc: 0.600	
+  experiment = U2OS-02  [n =     17]:	loss: 1.215	acc: 0.706	
+  experiment = U2OS-03  [n =     16]:	loss: 0.932	acc: 0.812	
+Epoch eval:
+Average acc: 0.859
+  cell_type = HEPG2  [n =   8622]:	acc = 0.840
+  cell_type = HUVEC  [n =  19671]:	acc = 0.881
+  cell_type = RPE  [n =   8623]:	acc = 0.841
+  cell_type = U2OS  [n =   3696]:	acc = 0.824
+Worst-group acc: 0.824
+
+Validation (OOD):
+objective: 5.352
+loss_avg: 5.352
+acc_avg: 0.191
+  experiment = HEPG2-08  [n =   2462]:	loss: 5.509	acc: 0.160	
+  experiment = HUVEC-20  [n =   2464]:	loss: 3.296	acc: 0.388	
+  experiment = RPE-09  [n =   2462]:	loss: 5.461	acc: 0.164	
+  experiment = U2OS-05  [n =   2440]:	loss: 7.160	acc: 0.053	
+Epoch eval:
+Average acc: 0.191
+  cell_type = HEPG2  [n =   2462]:	acc = 0.160
+  cell_type = HUVEC  [n =   2464]:	acc = 0.388
+  cell_type = RPE  [n =   2462]:	acc = 0.164
+  cell_type = U2OS  [n =   2440]:	acc = 0.053
+Worst-group acc: 0.053
+Validation acc_avg: 0.191
