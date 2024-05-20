@@ -6,7 +6,7 @@ df = pd.read_csv("./data/rxrx1_v1.0/metadata_old.csv")
 
 print(df[df['dataset'] == 'test'].experiment.unique())
 
-for exp in ['HUVEC-24']:
+for exp in ['HUVEC-17']:
     df.loc[df['experiment'] == exp, 'dataset'] = 'val'
     
 df.to_csv('./data/rxrx1_v1.0/metadata.csv', index=False)
