@@ -28,7 +28,7 @@ def main():
         last_index = int(f.read())
 
     if last_index != 0:
-        resume = True
+        resume = False
         
     # Segnare l'ora di inizio
     start_time = time.time()

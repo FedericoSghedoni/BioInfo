@@ -1,8 +1,6 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-
-
 import numpy as np
 
 # Setta il param di sort
@@ -18,7 +16,7 @@ param_values = {param: [] for param in params_of_interest}
 
 # Percorri tutte le cartelle di log
 logs_folders = []
-for log in ['log_', 'logc', 'logp_', 'logy', 'logw', 'logz', 'logh']: #'logs', 'logg', 'log_', 'logc', 'logp_', 'logx', 'logy'
+for log in ['log_', 'logy', 'logw', 'logz']: #'logs', 'logg', 'log_', 'logc', 'logp_', 'logh', 'logx', 'logy'
     logs_folders = logs_folders + [folder for folder in os.listdir('.') if log in folder and os.path.isdir(os.path.join('.', folder))]
 
 for folder in logs_folders:

@@ -28,7 +28,7 @@ def main():
         last_index = int(f.read())
 
     if last_index != 0:
-        resume = True
+        resume = False
         
     # Segnare l'ora di inizio
     start_time = time.time()
@@ -57,7 +57,7 @@ def main():
                         f"--weight_decay {weight_decay} " \
                         f"--scheduler_kwargs {scheduler_kwargs} " \
                         f"--model_kwargs {model_kwargs} " \
-                        f"--log_dir ./logz_dropout"
+                        f"--log_dir ./logw_dropout"
             
             # Salva l'indice su file o in una variabile persistente
             with open(f'last_index{file_index}.txt', 'w') as f:
