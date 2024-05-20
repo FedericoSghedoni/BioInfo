@@ -6,5 +6,4 @@ metadata.csv
 resnet_embeddings.csv
 plot
 !logs_resnet50
-WildsDataset/wilds/__pycache__
-WildsDataset/wilds/common/__pycache__
+WildsDataset
