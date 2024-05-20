@@ -1,6 +1,5 @@
 data*
 bin
-tests
 log*
 metadata_val.csv
 metadata.csv
