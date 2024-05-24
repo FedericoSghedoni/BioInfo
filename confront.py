@@ -143,7 +143,7 @@ fig, axs = plt.subplots(2)
 # Eliminazione dello spazio tra le tabelle
 plt.subplots_adjust(hspace=0)
 
-f_width, f_height = int(3*(len(logs_folders)+1)), 12 + n_val//2
+f_width, f_height = int(3*(len(logs_folders)+2)), 12 + n_val//2
 # Ingrandimento dell'intera figura
 fig.set_size_inches(f_width, f_height)
 
