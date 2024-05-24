@@ -59,21 +59,16 @@ def main():
                         f"--model_kwargs {model_kwargs} " \
                         f"--log_dir ./logw_dropout"
             
-            # Salva l'indice su file o in una variabile persistente
-            with open(f'last_index{file_index}.txt', 'w') as f:
-                f.write(str(last_index))
-            
             with open(f'output{file_index}.txt', 'a') as f:
                 f.write(f"{idx}. Running command for hyperparameters {hyperparams}: {command}\n")
             subprocess.run(command, shell=True)
             
-            last_index += 1
             resume = False
-        
+            last_index += 1
             
-    # Azzera l'indice su file o in una variabile persistente
-    with open(f'last_index{file_index}.txt', 'w') as f:
-        f.write("0")
+            # Salva l'indice su file o in una variabile persistente
+            with open(f'last_index{file_index}.txt', 'w') as f:
+                f.write(str(last_index))
 
 if __name__ == "__main__":
     main()

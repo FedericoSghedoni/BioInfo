@@ -6,7 +6,7 @@ import numpy as np
 # Setta il param di sort
 p_sort = ['Model', 'Additional train transform', 'N epochs', 'Model kwargs', 'Lr', 'Weight decay', 'Scheduler kwargs']
 # Setta numero valori da leggere dai log di ogni file
-n_val = 45
+n_val = 30
 # Definisci i parametri di interesse
 params_of_interest = ['Log dir', 'Model', 'Optimizer', 'Scheduler', 'Split scheme', 'Transform', 'Randaugment n', 'Additional train transform', 'N epochs', 'Model kwargs', 'Batch size', 'Lr', 'Weight decay', 'Scheduler kwargs']
 
@@ -143,7 +143,7 @@ fig, axs = plt.subplots(2)
 # Eliminazione dello spazio tra le tabelle
 plt.subplots_adjust(hspace=0)
 
-f_width, f_height = 5+4*len(logs_folders), 15 + n_val//2
+f_width, f_height = int(3*(len(logs_folders)+1)), 12 + n_val//2
 # Ingrandimento dell'intera figura
 fig.set_size_inches(f_width, f_height)
 
