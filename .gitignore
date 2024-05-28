@@ -7,3 +7,5 @@ resnet_embeddings.csv
 plot
 !logs_resnet50
 .git
+vit_embeddings.csv
+vit_mix_embeddings.csv
