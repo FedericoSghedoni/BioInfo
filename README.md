@@ -1,11 +1,6 @@
 # BioInfo
 
 git clone --depth=1 https://github.com/FedericoSghedoni/BioInfo
-git submodule init
-git submodule update
-
--Accedere alla vpn
--Connessione SSH
 
 per addestrare:
 python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_dir data --device 0
@@ -25,16 +20,6 @@ per usare solo una frazione del dataset:
 per usare vit come modello:
 python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_dir data --device 0 --model google/vit-base-patch16-224
 
-per staccare il terminale:
-screen
-CTRL+A CTRL*D
-
-per riattaccare il terminale:
-screen -r
-
-per chiudere definitivamente il terminale:
-exit
-
 per usare cutmix:
 python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_dir data --device 0 --model google/vit-base-patch16-224 --log_dir ./log --additional_train_transform cutmix
 
@@ -44,5 +29,12 @@ python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_
 per addestrare testa di classificazione 'experiment' con resnet:
 python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_dir data --device 0 --dataset_kwargs label_name=experiment --split_scheme mixed-to-test --model_kwargs train_only_classifier=True --load_featurizer_only True --pretrained_model_path ./logs_resnet50/rxrx1_seed:0_epoch:best_model.pth --log_dir ./logs_resnet50_experiment
 
-
+per addestrare testa di classificazione 'experiment' con vit:
 python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_dir data --device 0 --resume False --n_epochs 20 --model google/vit-base-patch16-224 --batch_size 16 --lr 0.0002 --weight_decay 0.01 --scheduler_kwargs num_warmup_steps=15000 --split_scheme mixed-to-test --dataset_kwargs label_name=experiment --model_kwargs train_only_classifier=True --load_featurizer_only True --pretrained_model_path ./log_vit_mu0/rxrx1_seed:0_epoch:best_model.pth --log_dir ./logs_vit_mix_mu0_experiment
+
+#embeddings vit
+ python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_dir data --device 0 --resume False --n_epochs 20 --model google/vit-base-patch16-224 --batch_size 16 --lr 0.0002 --weight_decay 0.01 --scheduler_kwargs num_warmup_steps=15000 --eval_only True --eval_splits val --evaluate_all_splits False  --pretrained_model_path ./logs_vit/rxrx1_seed:0_epoch:best_model.pth --log_dir ./logs_vit
+
+#embeddings vit Mix
+  python WildsDataset/examples/run_expt.py --dataset rxrx1 --algorithm ERM --root_dir data --device 0 --resume False --n_epochs 20 --model google/vit-base-patch16-224 --batch_size 16 --lr 0.0002 --weight_decay 0.01 --scheduler_kwargs num_warmup_steps=15000 --eval_only True --eval_splits val --evaluate_all_splits False --additional_train_transform cutmix2 --pretrained_model_path ./logs_vit_mix/rxrx1_seed:0_epoch:best_model.pth --log_dir ./logs_vit_mix 
+

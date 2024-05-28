@@ -16,7 +16,7 @@ param_values = {param: [] for param in params_of_interest}
 
 # Percorri tutte le cartelle di log
 logs_folders = []
-for log in ['log_', 'logy', 'logw', 'logz']: #'logs', 'logg', 'log_', 'logc', 'logp_', 'logh', 'logx', 'logy'
+for log in ['log_', 'logs']: #'logs', 'logg', 'log_', 'logc', 'logp_', 'logh', 'logx', 'logy'
     logs_folders = logs_folders + [folder for folder in os.listdir('.') if log in folder and os.path.isdir(os.path.join('.', folder))]
 
 for folder in logs_folders:
@@ -59,13 +59,13 @@ logs_folders = row_0_values
 
 # Inizializza un dizionario per memorizzare i valori degli iperparametri
 param_values = {}
-param_values.update({f'{i}_ac_id': [] for i in range(len(logs_folders))})
+param_values.update({f'{i}_ac_val': [] for i in range(len(logs_folders))})
 param_values.update({f'{i}_ac_test': [] for i in range(len(logs_folders))})
 param_values.update({f'{i}_ac_train': [] for i in range(len(logs_folders))})
 
 # Percorri tutte le cartelle "logs"
 for idx, folder in enumerate(logs_folders):
-    id_test_eval_file = os.path.join(folder, 'id_test_eval.csv')
+    id_test_eval_file = os.path.join(folder, 'val_eval.csv')
     test_eval_file = os.path.join(folder, 'test_eval.csv')
     train_eval_file = os.path.join(folder, 'train_eval.csv')
 
@@ -77,7 +77,7 @@ for idx, folder in enumerate(logs_folders):
     except pd.errors.EmptyDataError:
         continue
 
-    param_values[f'{idx}_ac_id'] = id_test_eval_df['acc_avg'].head(n_val).apply(lambda x: round(x*100, 2)).tolist()
+    param_values[f'{idx}_ac_val'] = id_test_eval_df['acc_avg'].head(n_val).apply(lambda x: round(x*100, 2)).tolist()
     param_values[f'{idx}_ac_test'] = test_eval_df['acc_avg'].head(n_val).apply(lambda x: round(x*100, 2)).tolist()
     param_values[f'{idx}_ac_train'] = train_eval_df['acc_avg'].head(n_val).apply(lambda x: round(x*100, 2)).tolist()
     
@@ -143,7 +143,7 @@ fig, axs = plt.subplots(2)
 # Eliminazione dello spazio tra le tabelle
 plt.subplots_adjust(hspace=0)
 
-f_width, f_height = int(3*(len(logs_folders)+2)), 12 + n_val//2
+f_width, f_height = int(3*(len(logs_folders))), 12 + n_val//2
 # Ingrandimento dell'intera figura
 fig.set_size_inches(f_width, f_height)
 
